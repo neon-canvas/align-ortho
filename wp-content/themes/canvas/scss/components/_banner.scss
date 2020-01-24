@@ -1,0 +1,40 @@
+// Large hero sections on pages
+.banner {
+	@include bgcover;
+	background-color: $base;
+	overflow: hidden;
+	height: 100vh;
+
+	@media screen and (max-width: $mediumdevice) {
+		height: 600px;
+	}
+
+	@media screen and (max-width: $smalldevice) {
+		height: 325px;
+	}
+
+	&:before {
+		@include overlay;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	p {
+		color: white;
+	}
+
+	video {
+		margin: 70px 0 0;
+
+		@media screen and (max-width: $mediumdevice) {
+			height: 600px;
+		}
+
+		@media screen and (max-width: $smalldevice) {
+			height: 325px;
+		}
+	}
+}

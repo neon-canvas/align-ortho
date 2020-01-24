@@ -1,0 +1,311 @@
+// Mobile menu toggle
+.menu-toggle {
+	@include trans;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: $headerheight;
+	height: $headerheight;
+	width: $headerheight;
+	z-index: 999999;
+	background: transparent;
+	border: 0;
+
+	span {
+		top: 50%;
+		left: 50%;
+		margin-left: -11px;
+	}
+	span,
+	span:before,
+	span:after {
+		@include trans;
+		content: '';
+		cursor: pointer;
+		height: 3px;
+		width: 22px;
+		background: $black;
+		position: absolute;
+		display: block;
+	}
+	span:before {
+		top: -8px;
+	}
+	span:after {
+		bottom: -8px;
+	}
+	&:focus {
+		outline: none;
+	}
+	&.active {
+
+		span {
+			background: transparent !important;
+
+			&:before,
+			&:after {
+				top: 0;
+			}
+			&:before {
+				transform: rotate(45deg);
+			}
+			&:after {
+				transform: rotate(-45deg);
+			}
+		}
+	}
+
+	@media only screen and (max-width: $mediumdevice) {
+		display: block;
+	}
+}
+
+// Mobile menu drawer
+$li-height: 74px;
+$li-border: 1px solid $gray-70;
+
+#side-menu {
+	@include trans;
+	transition-duration: .44s;
+	position: fixed;
+	height: 100%;
+	width: 450px;
+	background: white;
+	top: 0;
+	right: -450px;
+	text-align: left;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+	z-index: 9999;
+	padding: 10px 0;
+
+	@media screen and (max-width: $mediumdevice){
+		width: 100%;
+		right: -100%;
+	}
+
+	&.active {
+		right: 0;
+		box-shadow: 0 0 40px rgba(0,0,0,0.35);
+
+		.menu-contact {
+			visibility: visible;
+			transform: translateX(0px);
+			opacity: 1;
+			transition-delay: 1s;
+		}
+
+		ul#primary-menu {
+
+			li {
+				visibility: visible;
+				transform: translateX(0px);
+				opacity: 1;
+				transition-delay: .15s;
+
+				&:nth-child(2) {
+					transition-delay: .3s;
+				}
+
+				&:nth-child(3) {
+					transition-delay: .45s;
+				}
+
+				&:nth-child(4) {
+					transition-delay: .6s;
+				}
+
+				&:nth-child(5) {
+					transition-delay: .75s;
+				}
+
+				&:nth-child(6) {
+					transition-delay: 1s;
+				}
+			}
+		}
+	}
+
+	.menu-contact {
+		@include trans;
+		padding: 20px 40px;
+		visibility: hidden;
+		transform: translateX(25px);
+		opacity: 0;
+
+		.btn {
+			margin: 0 0 20px;
+		}
+
+		p {
+			a {
+				color: $black;
+				display: block;
+				position: relative;
+				padding: 0 0 0 20px;
+
+				svg {
+					position: absolute;
+					left: 0;
+					top: 12px;
+				}
+
+				&:hover {
+					opacity: .5;
+				}
+			}
+		}
+	}
+
+	ul#primary-menu {
+		margin: 60px 0 0;
+		display: block;
+		padding: 0 20px;
+
+		@media screen and (max-width: $mediumdevice){
+			margin: 80px 0 0;
+		}
+
+		> li {
+			@include trans;
+			position: relative;
+			margin: 0;
+			padding: 0;
+			float: none;
+			display: inline-block;
+			width: 100%;
+			text-align: left;
+			line-height: $li-height;
+			visibility: hidden;
+			transform: translateX(25px);
+			opacity: 0;
+
+			a {
+				font-weight: 400;
+				font-size: 1.4em;
+				padding: 0 20px;
+				display: inline-block;
+				color: $black;
+				line-height: $li-height;
+
+				span {
+					opacity: .4;
+					font-size: 13px;
+					margin: 0 5px 0 0;
+				}
+
+				&:hover {
+					opacity: .45;
+				}
+			}
+
+			a.expand {
+				display: block;
+				height: $li-height;
+				width: $li-height;
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 15px;
+				cursor: pointer;
+				opacity: .6;
+
+				&:hover {
+					opacity: 1;
+				}
+
+				&:before,
+				&:after {
+					content: '';
+					display: block;
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					background: $black;
+					width: 2px;
+					height: 10px;
+					margin: -5px 0 0 -1px;
+					border-radius: 6px;
+					-webkit-transform-origin: center;
+					-ms-transform-origin: center;
+					transform-origin: center;
+				}
+
+				&:before {
+					-webkit-transform: rotate(-45deg) translate(-4px, 0px);
+					-ms-transform: rotate(-45deg) translate(-4px, 0px);
+					transform: rotate(-45deg) translate(-4px, 0px);
+				}
+
+				&:after {
+					webkit-transform: rotate(45deg) translate(4px, 0px);
+					-ms-transform: rotate(45deg) translate(4px, 0px);
+					transform: rotate(45deg) translate(4px, 0px);
+				}
+
+				&.active {
+
+					&:before {
+						-webkit-transform: rotate(-45deg) translate(0px, 4px);
+						-ms-transform: rotate(-45deg) translate(0px, 4px);
+						transform: rotate(-45deg) translate(0px, 4px);
+					}
+
+					&:after {
+						-webkit-transform: rotate(45deg) translate(0px, 4px);
+						-ms-transform: rotate(45deg) translate(0px, 4px);
+						transform: rotate(45deg) translate(0px, 4px);
+					}
+				}
+			}
+
+			ul {
+				padding: 0;
+				margin: 0;
+				display: none;
+				position: relative;
+				float: none;
+
+				&.active {
+					display: block;
+				}
+
+				li {
+					display: block;
+					width: 100%;
+					position: relative;
+					height: auto;
+					line-height: 28px;
+					visibility: visible !important;
+					transform: translateX(0px) !important;
+					opacity: 1 !important;
+
+
+					a.expand {
+						height: 28px;
+					}
+
+					a {
+						color: $black;
+						font-size: 1em;
+						padding: 0 35px;
+						display: block;
+						font-weight: normal;
+						line-height: 28px;
+						opacity: .45;
+
+						&:hover {
+							opacity: 1;
+						}
+					}
+
+					// Third Level Nav
+					ul {
+						margin: 0;
+					}
+				}
+			}
+		}
+	}
+}

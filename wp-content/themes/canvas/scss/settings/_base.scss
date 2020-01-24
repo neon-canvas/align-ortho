@@ -1,0 +1,148 @@
+*,
+*:after,
+*:before {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+html {
+	overflow-x: hidden;
+}
+
+body {
+	font-family: $mainfont;
+	font-size: 16px;
+	font-weight: 300;
+	overflow-x: hidden;
+
+	&.active {
+		overflow: hidden;
+	}
+}
+
+// Links
+a {
+	@include trans;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+// Images
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+// Media
+iframe {
+	max-width: 100%;
+}
+
+// Miscellaneous
+hr {
+	margin: 2em 0;
+	height: 1px;
+	border: 0;
+	background: $gray-70;
+}
+
+// Structure
+section {
+	@include bgcover;
+	position: relative;
+	padding: $sectionpadding 0;
+	background: white;
+
+	&.full {
+		padding: 0;
+	}
+
+	// Inner content wrapper
+	.wrapper {
+		@include clearfix;
+		position: relative;
+		margin: 0 auto;
+		max-width: $large-max-width;
+	}
+
+	@media only screen and (max-width: $mediumdevice) {
+		padding-top: $sectionpadding/2;
+		padding-bottom: $sectionpadding/2;
+	}
+}
+
+.fl-col-small {
+
+	@media screen and (max-width: $mediumdevice) {
+		max-width: 100%;
+	}
+}
+
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 16px solid $blue;
+}
+
+.content-wrapper {
+	text-align: center;
+	position: relative;
+	padding: 70px 0 0;
+
+	@media screen and (max-width: $mediumdevice) {
+		padding: 20px 0;
+	}
+
+	img.pattern {
+		position: relative;
+		display: table;
+		margin: 0 auto -200px;
+	}
+
+	h4, h3, p {
+		position: relative;
+		z-index: 3;
+	}
+
+	.arrow-up {
+		margin: 20px auto;
+	}
+}
+
+.dark-section {
+	background: $black;
+
+	h1,
+	h2,
+	h3,
+	p {
+		color: white;
+	}
+
+	.underline-btn {
+		color: white;
+		display: table;
+		margin: auto;
+
+		&:hover {
+			border-bottom: 2px solid white;
+		}
+	}
+}
+
+.no-mobile-parallax {
+
+	@media screen and (max-width: $mediumdevice) {
+		transform: none !important;
+	}
+}
+
+.fade-element {
+	position: relative;
+	z-index: 3;
+}

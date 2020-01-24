@@ -1,0 +1,133 @@
+footer {
+	padding: 0;
+	background: white;
+	position: relative;
+	z-index: 2;
+	border-top: 1px solid $ltgrey;
+
+	.footer-contact-info {
+		max-width: 500px;
+		padding: 130px 20px;
+		margin: auto;
+
+		@media screen and (max-width: $mediumdevice) {
+			padding: 50px 20px;
+		}
+
+		.gform_wrapper .gform_body ul.gform_fields li.gfield div.ginput_container input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+			border: 0;
+			border-bottom: 2px solid $black;
+			line-height: 50px;
+			padding: 0;
+			font-family: $secfont;
+			font-weight: 400;
+		}
+	}
+
+	.map-col {
+		position: relative;
+		overflow: hidden;
+
+		&:hover {
+
+			.map-bg {
+				transform: scale(1.05);
+			}
+		}
+
+		.map-bg {
+			@include trans;
+			background: url(/wp-content/themes/canvas/img/footer-map.jpg);
+			background-size: cover !important;
+			background-position: center !important;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 2;
+		}
+
+		a {
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 3;
+		}
+	}
+
+	.footer-bottom {
+		background: $black;
+		padding: 15px 40px;
+
+		.affiliates-col {
+			text-align: right;
+		}
+
+		.contact-col,
+		.affiliates-col {
+
+			@media screen and (max-width: $mediumdevice) {
+				text-align: center;
+			}
+		}
+
+		a.phone-link,
+		a.location-link {
+			color: white;
+			font-family: $secbold;
+			text-transform: uppercase;
+
+			&:hover {
+				color: white;
+				opacity: .5;
+			}
+		}
+
+		p.copy {
+			font-size: 14px;
+			color: white;
+			margin: 0;
+
+			a {
+				color: white;
+			}
+		}
+
+		ul.social-links {
+			list-style:none;
+			padding: 0;
+			margin: 10px auto;
+			display: table;
+
+			@media screen and (max-width: $mediumdevice) {
+				margin: 10px auto 20px;
+			}
+
+			li {
+				display: inline-block;
+				margin: 0 10px;
+
+				a {
+					color: white;
+				}
+			}
+		}
+
+		img.affiliate-logo {
+			display: inline-block;
+			margin: 0 10px;
+			vertical-align: middle;
+
+			@media screen and (max-width: $mediumdevice) {
+				margin: 0 10px 10px;
+			}
+		}
+	}
+
+	@media only screen and (max-width: $mediumdevice) {
+		margin-bottom: $mobilebarheight;
+	}
+}

@@ -1,0 +1,85 @@
+// Headings
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $mainfont;
+	font-weight: 400;
+	margin: 0 0 25px;
+	padding: 0;
+	line-height: 1.25em;
+}
+
+h1 {
+	font-size: 50px;
+
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 40px;
+	}
+}
+
+h2 {
+	font-size: 38px;
+
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 30px;
+	}
+}
+
+h3 {
+	font-size: 32px;
+
+	@media only screen and (max-width: $mediumdevice) {
+		font-size: 24px;
+	}
+}
+
+h4 {
+	font-family: $secbold;
+	font-size: 18px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	color: $blue;
+
+	@media only screen and (max-width: $mediumdevice) {
+
+	}
+}
+
+h5 {
+	font-family: $secbold;
+	font-size: 14px;
+	letter-spacing: 1.8px;
+	text-transform: uppercase;
+	color: $black;
+
+	@media only screen and (max-width: $mediumdevice) {
+
+	}
+}
+
+// Paragraph
+p {
+	font-family: $secfont;
+	margin: 0 0 25px;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.underline-heading {
+	position: relative;
+	padding: 0 0 40px;
+	margin: 0 0 40px;
+
+	&:after {
+		content: "";
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 2px;
+		width: 40px;
+		background: $blue;
+	}
+}

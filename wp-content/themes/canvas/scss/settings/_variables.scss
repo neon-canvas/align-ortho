@@ -1,0 +1,69 @@
+@font-face {
+font-family: 'Segoe UI Regular';
+font-style: normal;
+font-weight: normal;
+src: url('/wp-content/themes/canvas/fonts/Segoe-UI.woff') format('woff');
+}
+
+@font-face {
+font-family: 'Segoe UI Bold';
+font-style: normal;
+font-weight: normal;
+src: url('/wp-content/themes/canvas/fonts/Segoe-UI-Bold.woff') format('woff');
+}
+
+
+// Primary Colors
+$primary: black;
+
+// Grays
+$base: #222325; // Base gray
+$blue: #4060AF;
+$black: #000000;
+$ltgrey: #DADFDE;
+
+$gray-10: lighten($base, 10%);
+$gray-20: lighten($base, 20%);
+$gray-30: lighten($base, 30%);
+$gray-40: lighten($base, 40%);
+$gray-50: lighten($base, 50%);
+$gray-60: lighten($base, 60%);
+$gray-70: lighten($base, 70%);
+$gray-80: lighten($base, 80%);
+$gray-90: lighten($base, 90%);
+
+// Fonts
+$mainfont: 'Playfair Display', serif;
+$secfont: 'Segoe UI Regular';
+$secbold: 'Segoe UI Bold';
+
+// Icons
+$iconfont: '';
+$canvas-icons: 'canvas';
+
+// Structure
+$gutter: 30px;
+$sectionpadding: 8em;
+
+// Heights
+$utilheight: 40px;
+$navheight: 60px;
+$mobilebarheight: 55px;
+$headerheight: 75px;
+
+// Widths
+$extralarge-max-width: 1600px;
+$large-max-width: 1140px;
+$small-max-width: 960px;
+$content-width: 820px;
+
+// Grid
+$grid-width: 96%;
+
+// Breakpoints
+$largedesktop: 1400px;
+$desktop: 1140px;
+$largedevice: 980px;
+$mediumlargedevice: 900px;
+$mediumdevice: 768px;
+$smalldevice: 480px;

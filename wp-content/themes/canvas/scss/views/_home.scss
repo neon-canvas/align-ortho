@@ -1,0 +1,270 @@
+body.home {
+
+	section.banner {
+
+		.banner-message {
+			position: absolute;
+			z-index: 1;
+			left: 50%;
+			top: 65%;
+			transform: translateX(-50%) translateY(-50%);
+			width: 100%;
+			margin: $navheight/2 0 0;
+			padding: 0 20px;
+			max-width: 1160px;
+
+			@media only screen and (max-width: $mediumdevice) {
+				top: auto;
+				bottom: 0;
+				transform: translateX(-50%);
+			}
+
+			h1 {
+				max-width: 550px;
+
+				@media only screen and (max-width: $mediumdevice) {
+					margin: 0 0 10px;
+				}
+			}
+
+			p {
+				font-size: 28px;
+
+				@media only screen and (max-width: $mediumdevice) {
+					font-size: 16px;
+					margin: 0 0 10px;
+				}
+			}
+
+			.btn {
+
+				@media only screen and (max-width: $mediumdevice) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	section.welcome {
+		text-align: center;
+
+		h2 {
+
+			@media screen and (max-width: $smalldevice) {
+				font-size: 22px;
+			}
+		}
+	}
+
+	section.our-office {
+		padding-bottom: 0;
+
+		.col-one {
+
+			@media screen and (max-width: $mediumdevice) {
+				order: 1;
+			}
+		}
+
+		.col-two {
+
+			@media screen and (max-width: $mediumdevice) {
+				order: 0;
+			}
+		}
+	}
+
+	section.meet-the-doctor {
+		padding-top: 0;
+	}
+
+	section.home-treatments {
+		background: white url(/wp-content/themes/canvas/img/bg-treatments-invisalign-v2.jpg);
+		background-size: 90% !important;
+		background-position: 0 50%;
+		background-repeat: no-repeat;
+
+		@media only screen and (max-width: $mediumdevice) {
+			background: white !important;
+		}		
+
+		h2 {
+			font-size: 48px;
+			max-width: 450px;
+
+			@media only screen and (max-width: $mediumdevice) {
+				font-size: 30px;
+			}
+		}
+
+		.accordion-menu {
+			width: 100%;
+			margin: 0;
+			background: #fff;
+			border-radius: 4px;
+			list-style: none;
+			padding: 0;
+
+			li {
+				@include trans;
+
+				.underline-btn {
+					font-size: 11px;
+					padding: 0 0 3px;
+				}
+
+				&.open {
+					box-shadow: 5px 5px 30px 0 rgba(0,0,0,0.10);
+					border-radius: 2px;
+
+					.plus-icon span:first-of-type,
+					.plus-icon span:last-of-type {
+						transform: rotate(90deg);
+					}
+
+					.plus-icon span:last-of-type {
+						transform: rotate(180deg);
+					}
+				}
+			}
+		}
+
+		.accordion-menu li.open .dropdownlink {
+			color: $black;
+
+			.fa-chevron-down {
+				transform: rotate(180deg);
+			}
+		}
+
+		.accordion-menu li:last-child .dropdownlink {
+			border-bottom: 0;
+		}
+
+		.dropdownlink {
+			cursor: pointer;
+			display: block;
+			padding: 15px 40px 15px 20px;
+			font-size: 18px;
+			color: #212121;
+			position: relative;
+			transition: all 0.4s ease-out;
+
+			.plus-icon {
+				width: 54px;
+				height: 54px;
+				border: 0;
+				font-size: 1.5em;
+				position: absolute;
+				top: 0;
+				right: 0;
+
+				span {
+					position: absolute;
+					transition: .3s;
+					background: $black;
+
+					&:first-of-type {
+						top: 20px;
+						width: 1px;
+						left: 25px;
+						height: 11px;
+					}
+
+					&:last-of-type {
+						left: 20px;
+						right: 50%;
+						height: 1px;
+						top: 25px;
+						width: 11px;
+					}
+				}
+			}
+		}
+
+		.submenuItems {
+			display: none;
+			background: white;
+			margin: 0;
+			padding: 20px;
+			list-style: none;
+
+			p {
+				font-size: 16px;
+				line-height: 1.5em;
+			}
+		}
+	}
+
+	section.home-testimonials {
+		padding-bottom: $sectionpadding/2;
+
+		.underline-btn {
+			cursor: pointer;
+			display: inline-block;
+			margin: 0 10px 10px;
+		}
+
+		.col-one {
+
+			@media screen and (max-width: $mediumdevice) {
+				order: 1;
+			}
+		}
+
+		.col-two {
+
+			@media screen and (max-width: $mediumdevice) {
+				order: 0;
+			}
+		}
+	}
+
+	section.insta-feed {
+		padding: 0;
+		position: relative;
+		z-index: 3;
+
+		&:after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			height: 50%;
+			width: 100%;
+			background: white;
+		}
+	}
+
+	section.home-awards {
+		text-align: center;
+
+		h4 {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 400px;
+		}
+
+		.logos {
+
+			.logo {
+				margin: 0 20px 0 -60px;
+				display: inline-block;
+
+				@media screen and (max-width: $mediumdevice) {
+					margin: 0 10px;
+				}
+
+				&:first-of-type {
+					margin-left: 0;
+				}
+
+				img {
+					display: block;
+					position: relative;
+					z-index: 3;
+				}
+			}
+		}
+	}
+}
