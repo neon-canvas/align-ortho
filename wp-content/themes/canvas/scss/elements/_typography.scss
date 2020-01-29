@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-	font-size: 38px;
+	font-size: 42px;
 
 	@media only screen and (max-width: $mediumdevice) {
 		font-size: 30px;
@@ -29,10 +29,10 @@ h2 {
 }
 
 h3 {
-	font-size: 32px;
+	font-size: 28px;
 
 	@media only screen and (max-width: $mediumdevice) {
-		font-size: 24px;
+		font-size: 22px;
 	}
 }
 
@@ -64,14 +64,18 @@ h5 {
 p {
 	font-family: $secfont;
 	margin: 0 0 25px;
-	font-size: 18px;
-	line-height: 36px;
+	font-size: 16px;
+	line-height: 1.75em;
+
+	strong {
+		font-family: $secbold;
+	}
 }
 
 .underline-heading {
 	position: relative;
 	padding: 0 0 40px;
-	margin: 0 0 40px;
+	margin: 0 0 35px;
 
 	&:after {
 		content: "";
@@ -82,4 +86,66 @@ p {
 		width: 40px;
 		background: $blue;
 	}
+}
+
+blockquote {
+	border-top: 2px solid $blue;
+	border-bottom: 2px solid $blue;
+	padding: 35px 0;
+	font-size: 22px;
+	line-height: 1.5em;
+	position: relative;
+
+	&:before {
+		content: "\f10d";
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-style: normal;
+		display: inline-block;
+		text-decoration: inherit;
+		position: absolute;
+		left: 20px;
+		background: white;
+		padding: 20px;
+		font-size: 24px;
+		color: $blue;
+		position: absolute;
+		top: 0;
+		transform: translateY(-50%);
+	}
+
+	span {
+		display: block;
+		margin: 20px 0 0;
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		opacity: .5;
+		font-family: $secbold;
+	}
+}
+
+
+/*** Works on common browsers ***/
+::selection {
+	background-color: #BAEAF6;
+}
+
+/*** Mozilla based browsers ***/
+::-moz-selection {
+	background-color: #BAEAF6;
+}
+
+/***For Other Browsers ***/
+::-o-selection {
+	background-color: #BAEAF6;
+}
+
+::-ms-selection {
+	background-color: #BAEAF6;
+}
+
+/*** For Webkit ***/
+::-webkit-selection {
+	background-color: #BAEAF6;
 }

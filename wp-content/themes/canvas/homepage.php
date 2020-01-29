@@ -10,7 +10,7 @@ get_header(); ?>
 		<div class="banner-message">
 			<h1>Your Family Orthodontics Since 1989</h1>
 			<p>A New Name, The Same Private Practice</p>
-			<a href="#" class="btn">Schedule Your Free Consultation</a>
+			<a href="/free-consult" class="btn">Schedule Your Free Consultation</a>
 		</div>
 		<div class="bgvideo">
 			<video width="100%" height="100%" autoplay muted loop playsinline preload="metadata">
@@ -44,7 +44,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-8 col-two">
-					<img src="/wp-content/themes/canvas/img/bg-location-square.jpg" alt="patient smiling during visit">
+					<img src="/wp-content/themes/canvas/img/bg-location-square.jpg" alt="patient smiling during visit" class="fade-element">
 				</div>
 			</div>
 		</div>
@@ -53,7 +53,7 @@ get_header(); ?>
 		<div class="container">
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-6 col-md-7">
-					<img src="/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg" alt="dr. majznerski headshot">
+					<img src="/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg" alt="dr. majznerski headshot" class="fade-element">
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-5">
 					<div class="content-wrapper fade-element">
@@ -152,7 +152,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-8 col-two">
-					<img src="/wp-content/themes/canvas/img/bg-testimonial-headshot-1.jpg" alt="patient smiling during visit">
+					<img src="/wp-content/themes/canvas/img/bg-testimonial-headshot-1.jpg" alt="patient smiling during visit" class="fade-element">
 				</div>
 			</div>
 		</div>

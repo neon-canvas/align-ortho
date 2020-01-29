@@ -14,8 +14,9 @@ html {
 
 body {
 	font-family: $mainfont;
+	font-family: $secfont;
 	font-size: 16px;
-	font-weight: 300;
+	line-height: 1.75em;
 	overflow-x: hidden;
 
 	&.active {
@@ -28,6 +29,11 @@ a {
 	@include trans;
 	text-decoration: none;
 	cursor: pointer;
+	color: $blue;
+
+	&:hover {
+		color: $black;
+	}
 }
 
 // Images

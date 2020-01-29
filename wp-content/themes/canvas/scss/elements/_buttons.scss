@@ -41,6 +41,13 @@ $default-btn-border-color: $default-btn-bg-color;
 
 	&:hover {
 		background: #333;
+		color: white;
+	}
+
+	.fa {
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 0 5px 5px;
 	}
 }
 

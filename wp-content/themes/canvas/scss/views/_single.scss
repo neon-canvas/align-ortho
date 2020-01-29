@@ -1,0 +1,199 @@
+body.single {
+
+	section.content {
+		margin: 140px 0 0;
+		padding: 0;
+
+		@media screen and (max-width: 1200px) {
+			margin: 135px 0 0;
+		}
+
+		span.post-author {
+			color: white;
+		    background: $blue;
+		    padding: 10px 20px;
+		    text-align: center;
+		    width: 100%;
+		    margin: auto;
+
+			img.signature-headshot {
+				width: 50px;
+				border-radius: 80px;
+				display: inline-block;
+				vertical-align: middle;
+				margin: 0 15px;
+			}
+
+			img.signature {
+				display: inline-block;
+				vertical-align: middle;
+				width: 60px;
+			}
+		}
+
+		.container {
+			max-width: 880px;
+
+			.entry-content {
+				padding: 0 0 50px;
+			}
+
+			h1 {
+				color: $blue;
+			}
+
+			.post-date,
+			.post-author {
+				font-family: $secfont;
+				font-size: 14px;
+				text-transform: uppercase;
+				margin: 0 0 20px;
+				display: block;
+			}
+
+			.featured-image {
+				margin: 0 0 40px;
+			}
+
+			p {
+				font-size: 23px;
+				line-height: 40px;
+				margin: 0 0 30px;
+			}
+
+			.share-buttons {
+				font-size: 0.7rem;
+				line-height: 0.7rem;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				margin: 0;
+				z-index: 2;
+				position: relative;
+				list-style-type: none;
+				padding: 0;
+			}
+
+			.share-buttons li {
+				display: inline-block;
+				margin: 0 15px 0 0;
+			}
+
+			.share-buttons svg {
+				fill: #fff;
+				width: 19px;
+				height: 19px;
+			}
+
+			.share-googleplus svg {
+				width: 20px;
+				height: 16px;
+			}
+
+			.share-buttons a {
+				display: block;
+				padding: 12px 0;
+				text-align: center;
+
+				&:hover {
+					opacity: .5;
+				}
+			}
+
+			.share-buttons a span {
+				display: none;
+			}
+
+			.share-buttons li:first-child a {
+				border-radius: 3px 0 0 3px;
+			}
+
+			.share-buttons li:last-child a {
+				border-radius: 0 3px 3px 0;
+			}
+
+			.share-twitter svg{
+				fill: #1da1f2;
+			}
+
+			.share-facebook	svg{
+				fill: #3b5998;
+			}
+
+			.share-googleplus svg{
+				fill: #db4437;
+			}
+
+			.share-pinterest svg{
+				fill: #b5071a;
+			}
+		}
+
+		.related-posts {
+			padding: 30px;
+			text-align: center;
+			background: #F7F9FA;
+
+			h2 {
+				margin: 40px 0 60px;
+			}
+
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+
+				li {
+					margin: 0 0 30px;
+					text-align: center;
+					overflow: hidden;
+					cursor: pointer;
+					padding: 0 15px;
+
+					&:hover {
+						.featured-image {
+							transform: scale(1.075);
+						}
+					}
+
+					.featured-image-wrap {
+						overflow: hidden;
+						display: block;
+					}
+
+					.featured-image {
+						@include trans;
+						height: 400px;
+						background-size: cover !important;
+						background-position: center !important;
+
+						@media screen and (max-width: $smalldevice) {
+							height: 250px;
+						}
+					}
+
+					.relatedcontent {
+						max-width: 80%;
+						text-align: left;
+						margin: -50px 0 0;
+						background: #F7F9FA;
+						padding: 30px;
+						position: relative;
+						z-index: 2;
+					}
+
+					.post-date {
+						margin: 0;
+						font-family: $secfont;
+					}
+
+					h3 a {
+						line-height: 1.125em;
+						display: block;
+						margin: 0 0 20px;
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+}

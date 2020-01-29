@@ -61,7 +61,7 @@
 }
 
 // Mobile menu drawer
-$li-height: 74px;
+$li-height: 60px;
 $li-border: 1px solid $gray-70;
 
 #side-menu {
@@ -102,26 +102,38 @@ $li-border: 1px solid $gray-70;
 				visibility: visible;
 				transform: translateX(0px);
 				opacity: 1;
-				transition-delay: .15s;
+				transition-delay: .1s;
 
 				&:nth-child(2) {
-					transition-delay: .3s;
+					transition-delay: .2s;
 				}
 
 				&:nth-child(3) {
-					transition-delay: .45s;
+					transition-delay: .3s;
 				}
 
 				&:nth-child(4) {
-					transition-delay: .6s;
+					transition-delay: .4s;
 				}
 
 				&:nth-child(5) {
-					transition-delay: .75s;
+					transition-delay: .5s;
 				}
 
 				&:nth-child(6) {
-					transition-delay: 1s;
+					transition-delay: .6s;
+				}
+
+				&:nth-child(7) {
+					transition-delay: .7s;
+				}
+
+				&:nth-child(8) {
+					transition-delay: .8s;
+				}
+
+				&:nth-child(9) {
+					transition-delay: .9s;
 				}
 			}
 		}
@@ -149,6 +161,7 @@ $li-border: 1px solid $gray-70;
 					position: absolute;
 					left: 0;
 					top: 12px;
+					opacity: .4;
 				}
 
 				&:hover {
@@ -161,7 +174,7 @@ $li-border: 1px solid $gray-70;
 	ul#primary-menu {
 		margin: 60px 0 0;
 		display: block;
-		padding: 0 20px;
+		padding: 0 7px 0 20px;
 
 		@media screen and (max-width: $mediumdevice){
 			margin: 80px 0 0;
@@ -181,6 +194,11 @@ $li-border: 1px solid $gray-70;
 			transform: translateX(25px);
 			opacity: 0;
 
+			&.current_page_item a {
+				color: $blue !important;
+				opacity: 1 !important;
+			}
+
 			a {
 				font-weight: 400;
 				font-size: 1.4em;
@@ -188,11 +206,13 @@ $li-border: 1px solid $gray-70;
 				display: inline-block;
 				color: $black;
 				line-height: $li-height;
+				font-family: $mainfont;
 
 				span {
 					opacity: .4;
 					font-size: 13px;
-					margin: 0 5px 0 0;
+					margin: 0 8px 0 0;
+					font-family: $secfont;
 				}
 
 				&:hover {
@@ -281,6 +301,11 @@ $li-border: 1px solid $gray-70;
 					transform: translateX(0px) !important;
 					opacity: 1 !important;
 
+					&.current_page_item a {
+						color: $blue !important;
+						opacity: 1 !important;
+					}
+
 
 					a.expand {
 						height: 28px;
@@ -294,6 +319,7 @@ $li-border: 1px solid $gray-70;
 						font-weight: normal;
 						line-height: 28px;
 						opacity: .45;
+						font-family: $secfont;
 
 						&:hover {
 							opacity: 1;
@@ -303,6 +329,7 @@ $li-border: 1px solid $gray-70;
 					// Third Level Nav
 					ul {
 						margin: 0;
+						padding: 0 0 0 20px;
 					}
 				}
 			}

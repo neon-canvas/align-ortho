@@ -37,4 +37,18 @@
 			height: 325px;
 		}
 	}
+
+	.default-banner-wrapper {
+		position: absolute;
+		z-index: 2;
+		bottom: 75px;
+		left: 0;
+		width: 100%;
+		text-align: center;
+
+		h1 {
+			position: relative;
+			color: white;
+		}
+	}
 }

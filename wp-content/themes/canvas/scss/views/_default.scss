@@ -1,3 +1,288 @@
 body.page-template-default {
 
+	section.banner {
+		background-position: top;
+	}
+
+	section.content {
+		padding:0;
+
+		ul {
+
+			li {
+				margin: 0 0 10px;
+				font-size: 14px;
+			}
+		}
+
+		.logos {
+
+			.logo {
+				margin: 0 20px 0 -60px;
+				display: inline-block;
+
+				@media screen and (max-width: $mediumdevice) {
+					margin: 0 10px;
+				}
+
+				&:first-of-type {
+					margin-left: 0;
+				}
+
+				img {
+					display: block;
+					position: relative;
+					z-index: 3;
+				}
+			}
+		}
+
+		a.cta-block {
+			display: block;
+			position: relative;
+			height: 475px;
+			overflow: hidden;
+
+			&:hover {
+
+				.cta-block-text {
+					color: white;
+				}
+
+				.btn {
+					color: white !important;
+					transform: translateY(-3px);
+					background: darken($blue, 14%) !important;
+
+					.btn-bg {
+						opacity: 1;
+						transform: scale(1);
+					}
+				}
+			}
+
+			&:hover {
+
+				.cta-block-image {
+					transform: scale(1.05);
+				}
+			}
+
+			.cta-block-image {
+				@include trans;
+				position: absolute;
+				top: -1%;
+				left: -1%;
+				height: 102%;
+				width: 102%;
+				background-size: cover !important;
+
+				&:before {
+					content: "";
+					position: absolute;
+					top: 0;
+					left: 0;
+					height: 100%;
+					width: 100%;
+					background: linear-gradient(180deg,rgba(0,0,0,0),rgba(0,0,0,.7));
+				}
+			}
+
+			.cta-block-text {
+				@include trans;
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				padding: 50px;
+				width: 100%;
+				font-size: 22px;
+
+				h3 {
+					color: white;
+				}
+			}
+		}
+
+		.section-padding {
+			padding: $sectionpadding/2 0;
+
+			@media only screen and (max-width: $mediumdevice) {
+				padding: $sectionpadding/2 0;
+			}
+		}
+
+		.section-padding-top {
+			padding: $sectionpadding/2 0 0;
+
+			@media only screen and (max-width: $mediumdevice) {
+				padding: $sectionpadding/2 0 0;
+			}
+		}
+
+		.section-padding-bottom {
+			padding: 0 0 $sectionpadding/2;
+
+			@media only screen and (max-width: $mediumdevice) {
+				padding: 0 0 $sectionpadding/2;
+			}
+		}
+
+		.black-bg {
+			background: $black;
+		}
+
+		.grey-bg {
+			background: #f2f7f9;
+		}
+
+		.section-border-bottom {
+			border-bottom: 1px solid $ltgrey;
+		}
+
+		.section-border-top {
+			border-top: 1px solid $ltgrey;
+		}
+
+		.content-wrapper {
+			max-width: 500px;
+			margin: auto;
+
+			@media screen and (max-width: $mediumdevice) {
+				max-width: 100%;
+			}
+		}
+
+		.fl-accordion-item {
+			border-color: $blue;
+		}
+
+		.fl-accordion-button-label {
+			color: $blue;
+		}
+
+		.no-border-top {
+			border-top: 0 !important;
+		}
+
+		.no-border-bottom {
+			border-bottom: 0 !important
+		}
+	}
+
+	.interior-blocks-row {
+		position: relative;
+		padding: 50px 0;
+
+		&:before {
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 50%;
+			top: 0;
+			right: 0;
+			background: white;
+			z-index: 1;
+
+			@media screen and (max-width: $mediumdevice) {
+				display: none;
+			}
+		}
+
+		.image-block {
+			position: relative;
+			z-index: 3;
+		}
+
+		.default-content-wrapper {
+			padding: 20px 50px;
+			position: relative;
+			z-index: 2;
+
+			@media screen and (max-width: $mediumdevice) {
+				padding: 20px 0;
+			}
+
+			h3,
+			p {
+				color: $black;
+			}
+		}
+	}
+
+	.interior-blocks-row-alt {
+		position: relative;
+		padding: 50px 0;
+
+		&:before {
+			content: "";
+			position: absolute;
+			height: 100%;
+			width: 50%;
+			top: 0;
+			left: 0;
+			background: white;
+			z-index: 1;
+
+			@media screen and (max-width: $mediumdevice) {
+				display: none;
+			}
+		}
+
+		.image-block {
+			position: relative;
+			z-index: 3;
+
+			@media screen and (max-width: $mediumdevice) {
+				order: 1;
+			}
+		}
+
+		.default-content-block {
+
+			@media screen and (max-width: $mediumdevice) {
+				order: 0;
+			}
+		}
+
+		.default-content-wrapper {
+			padding: 20px 50px;
+			position: relative;
+			z-index: 2;
+
+			@media screen and (max-width: $mediumdevice) {
+				padding: 20px 0;
+			}
+
+			h3,
+			p {
+				color: $black;
+			}
+		}
+	}
+
+
+	&.page-metal-braces,
+	&.page-clear-braces,
+	&.page-invisalign,
+	&.page-invisalign-for-teens,
+	&.page-ortho-care {
+
+		section.banner {
+			background-position: center !important;
+		}
+	}
+
+	&.page-meet-the-team {
+
+		.wavy-bg {
+			background: $blue !important;
+		}
+	}
+
+	.fl-accordion-button-label {
+
+		&:focus {
+			outline: none;
+		}
+	}
 }
