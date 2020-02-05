@@ -54,6 +54,26 @@ get_header(); ?>
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-6 col-md-7">
 					<img src="/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg" alt="dr. majznerski headshot" class="fade-element">
+						<div class="dr-award-logos">
+							<img src="/wp-content/uploads/2020/02/inv1-MB.png" alt="invisalign award logos" style="max-width: 400px; margin: 0 auto 15px; display: table;">
+							<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="award-logo" style="
+						max-width: 100px;
+						">
+							<img src="/wp-content/uploads/2020/02/DMC-100KB-full.png" alt="dmc logo" class="award-logo" style="
+						margin-top: 10px;
+						">
+							<img src="/wp-content/uploads/2020/02/AAO-white-letter.png" alt="aao logo" class="award-logo">
+							<img src="/wp-content/uploads/2020/02/Mayo-Clinic-Alumnus-Logo-edited.png" alt="mayo alumni logo" class="fade-element award-logo" data-sr-id="7" style="visibility: visible; opacity: 1; transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0.055s;">
+							<img src="/wp-content/uploads/2020/02/MDA-m.png" alt="mda logo" class="award-logo" style="
+						max-width: 180px;
+						">
+							<img src="/wp-content/uploads/2020/02/MIchigan-Shield.png" alt="michigan university logo" class="award-logo" style="
+						max-width: 100px;
+						">
+							<img src="/wp-content/uploads/2020/02/Michigan-Dent-transp-hi-res-reversed.png" alt="university of michigan logo" class="award-logo" style="
+						max-width: 180px;
+						">
+						</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-5">
 					<div class="content-wrapper fade-element">

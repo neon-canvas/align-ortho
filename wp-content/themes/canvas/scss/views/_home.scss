@@ -76,6 +76,17 @@ body.home {
 
 	section.meet-the-doctor {
 		padding-top: 0;
+
+		.dr-award-logos {
+			text-align: center;
+
+			.award-logo {
+				display: inline-block;
+				max-width: 120px;
+				vertical-align: middle;
+				margin: 0 10px;
+			}
+		}
 	}
 
 	section.home-treatments {
