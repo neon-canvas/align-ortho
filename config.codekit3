@@ -42653,6 +42653,14 @@
 		"oAP": "/wp-content/themes/canvas/archive.php",
 		"oF": 0
 		},
+	"/wp-content/themes/canvas/before-and-after.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/before-and-after.php",
+		"oF": 0
+		},
 	"/wp-content/themes/canvas/comments.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -42906,9 +42914,20 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg": {
+	"/wp-content/themes/canvas/img/bg-dr-majznerski-square-old.jpg": {
 		"ft": 16384,
 		"iS": 215136,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/bg-dr-majznerski-square-old.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg": {
+		"ft": 16384,
+		"iS": 17938,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg",
@@ -43182,6 +43201,28 @@
 		"iS": 16554,
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/pattern-diamonds.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/signature-placeholder-drk.png": {
+		"ft": 32768,
+		"iS": 32515,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/signature-placeholder-drk.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/signature-placeholder.png": {
+		"ft": 32768,
+		"iS": 35292,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/signature-placeholder.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,

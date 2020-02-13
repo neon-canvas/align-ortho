@@ -77,6 +77,36 @@ body.home {
 	section.meet-the-doctor {
 		padding-top: 0;
 
+		.dr-logos {
+			text-align: center;
+			margin: -75px 0 0;
+			display: block;
+			position: relative;
+			z-index: 3;
+			
+			@media screen and (max-width: $mediumdevice) {
+				margin: 0;
+			}
+
+			img.logo-sml {
+				vertical-align: middle;
+				display: inline-block;
+				margin: 0 15px 5px;
+			}
+		}
+
+		.content-wrapper {
+
+			@media screen and (min-width: $mediumdevice) {
+				margin-top: 45px;
+			}
+		}
+	}
+
+	section.home-logos {
+		background: lighten($black, 10%);
+		padding: 2em 0;
+
 		.dr-award-logos {
 			text-align: center;
 
@@ -84,8 +114,22 @@ body.home {
 				display: inline-block;
 				max-width: 120px;
 				vertical-align: middle;
-				margin: 0 10px;
+				margin: 0 25px;
 			}
+		}
+	}
+
+	section.home-before-and-afters {
+		text-align: center;
+		background: $black;
+
+		h2 {
+			color: white;
+			margin: 0 0 40px;
+		}
+
+		.btn {
+			margin-top: 40px;
 		}
 	}
 
@@ -249,6 +293,7 @@ body.home {
 
 	section.home-awards {
 		text-align: center;
+		background: #f9f9f9;
 
 		h4 {
 			margin-left: auto;
