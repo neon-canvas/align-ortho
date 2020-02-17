@@ -55,7 +55,7 @@ get_header(); ?>
 				<div class="col-xs-12 col-sm-6 col-md-7">
 					<img src="/wp-content/themes/canvas/img/bg-dr-majznerski-square.jpg" alt="dr. majznerski headshot" class="fade-element">
 					<div class="dr-logos">
-						<img src="/wp-content/themes/canvas/img/signature-placeholder.png" alt=" dr. larry signature" class="signature logo-sml" style="
+						<img src="/wp-content/uploads/2020/02/dr-larry-signature-white.png" alt=" dr. larry signature" class="signature logo-sml" style="
 			max-width: 275px;
 			">
 						<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="logo-sml" style="
