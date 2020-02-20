@@ -58,7 +58,7 @@ get_header(); ?>
 						<img src="/wp-content/uploads/2020/02/dr-larry-signature-white.png" alt=" dr. larry signature" class="signature logo-sml" style="
 			max-width: 275px;
 			">
-						<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="logo-sml" style="
+						<img src="/wp-content/uploads/2020/02/Mayo-Clinic-Alumnus-Logo-edited.png" alt="mayo clinic logo" class="logo-sml" style="
 			max-width: 100px;
 			">
 					</div>
@@ -83,7 +83,7 @@ get_header(); ?>
 			margin-top: 10px;
 			">
 				<img src="/wp-content/uploads/2020/02/AAO-white-letter.png" alt="aao logo" class="award-logo">
-				<img src="/wp-content/uploads/2020/02/Mayo-Clinic-Alumnus-Logo-edited.png" alt="mayo alumni logo" class="fade-element award-logo" data-sr-id="7" style="visibility: visible; opacity: 1; transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0.055s;">
+				<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="fade-element award-logo" data-sr-id="7" style="visibility: visible; opacity: 1; transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0.055s;">
 				<img src="/wp-content/uploads/2020/02/MDA-m.png" alt="mda logo" class="award-logo" style="
 			max-width: 180px;
 			">
@@ -98,13 +98,13 @@ get_header(); ?>
 			<h2>Our Smiles Speak for Themselves</h2>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
-					<img src="http://smilesbydrm.wpengine.com/wp-content/uploads/2020/02/12-1024x576-1.jpg" alt="before and after image" class="fade-element">
+					<img src="/wp-content/uploads/2020/02/14-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<img src="http://smilesbydrm.wpengine.com/wp-content/uploads/2020/02/8-1024x576-1.jpg" alt="before and after image" class="fade-element">
+					<img src="/wp-content/uploads/2020/02/8-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 				<div class="col-xs-12 col-sm-4">
-					<img src="http://smilesbydrm.wpengine.com/wp-content/uploads/2020/02/20-1024x576-1.jpg" alt="before and after image" class="fade-element">
+					<img src="/wp-content/uploads/2020/02/19-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 			</div>
 			<a href="/before-afters/" class="btn fade-element">View All</a>

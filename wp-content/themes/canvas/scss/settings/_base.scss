@@ -154,10 +154,9 @@ section {
 }
 
 ul.ba-anchor-nav {
-	background: darken($blue, 20%);
-	position: fixed;
-	top: 59px;
-	z-index: 9;
+	background: $black;
+	position: relative;
+	z-index: 2;
 	width: 100%;
 	text-align: center;
 	padding: 5px;
@@ -165,7 +164,7 @@ ul.ba-anchor-nav {
 
 	li {
 		display: inline-block;
-		margin: 0 10px;
+		margin: 0 10px !important;
 
 		span {
 			color: white;
