@@ -70,7 +70,8 @@ get_header(); ?>
 						<h3>Larry Majnerski, DDS MSD</h3>
 						<div class="arrow-up"></div>
 						<p>Your comfort is important, that’s why we have two offices. Adults have a special office just for them, while kids and teens get their own office.</p>
-						<a href="#" class="underline-btn" style="margin-bottom: 25px;">Learn More</a>
+						<a href="#" class="underline-btn" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
+						<div class="underline-btn play-btn" data-video-id="HNUM3tDb2so" style="margin: 0 15px 25px; display: inline-block;"><i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majnerski</div>
 					</div>
 				</div>
 			</div>
@@ -225,7 +226,7 @@ get_header(); ?>
 						<h3>Meet Linda Lawrence</h3>
 						<div class="arrow-up"></div>
 						<p>“Dr. M is literally the BEST and most skilled orthodontist out there. If you want perfection, go to Align Orthodontics! I am overjoyed with the results and love showing off my smile now!”</p>
-						<div class="underline-btn play-btn"><i class="fa fa-play" aria-hidden="true"></i> Watch Video</div>
+						<div class="underline-btn play-btn"><i class="fa fa-play-circle-o" aria-hidden="true"></i> Watch Video</div>
 						<a href="#" class="underline-btn play-btn">View All</a>
 					</div>
 				</div>
