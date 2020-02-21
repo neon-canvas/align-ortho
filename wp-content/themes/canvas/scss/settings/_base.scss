@@ -180,3 +180,10 @@ ul.ba-anchor-nav {
 		}
 	}
 }
+
+.fl-col-small:not(.fl-col-small-full-width) {
+
+	@media screen and (max-width: $mediumdevice) {
+    	max-width: 100% !important;
+	}
+}

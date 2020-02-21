@@ -4,9 +4,11 @@
 	background-color: $base;
 	overflow: hidden;
 	height: 100vh;
+	background-position: top;
 
 	@media screen and (max-width: $mediumdevice) {
 		height: 600px;
+		margin: $headerheight 0 0;
 	}
 
 	@media screen and (max-width: $smalldevice) {

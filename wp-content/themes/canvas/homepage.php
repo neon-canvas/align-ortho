@@ -162,7 +162,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems" style="display: block;">
 								<li>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Consider Invisalign® to get the beautiful straight teeth you’ve always wanted—without braces. Dr. Larry Majnzerski is in the top 1% of Invisalign providers in the country, so your smile is in the best of hands.</p>
 									<p><a href="/invisalign" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
@@ -173,7 +173,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Traditional braces have been around for a long time, and they’re probably the most recognizable symbol of orthodontics. These orthodontic workhouses have a long history of successful treatment and are great at correcting many oral issues.</p>
 									<p><a href="/metal-braces" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
@@ -184,7 +184,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Ceramic braces are also referred to as clear braces, tooth-colored braces, or aesthetic braces. They work the same way metal braces do. Our clear braces are designed to be less noticeable on your teeth than metal braces. They're smaller than ever and made of nearly invisible tooth-colored polycrystalline ceramic material.</p>
 									<p><a href="/clear-braces" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
@@ -195,7 +195,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>Most people snore from time to time. However, loud snoring that happens the majority of the time, also known as chronic snoring, can negatively affect you and others in your home.</p>
 									<p><a href="/snoring/" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
@@ -206,7 +206,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<p>More than 80% of adults experience tooth wear related to a bite problem. Sometimes tooth wear is caused by grinding, but not always. If you have worn teeth from a bad bite, you may need dental treatment to restore lost enamel. You may also need orthodontic treatment to correct your bite before any other work can be completed.</p>
 									<p><a href="/rebuilding-worn-teeth/" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>

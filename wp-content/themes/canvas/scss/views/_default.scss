@@ -43,6 +43,10 @@ body.page-template-default {
 			height: 475px;
 			overflow: hidden;
 
+			@media screen and (max-width: $mediumdevice) {
+				height: 300px;
+			}
+
 			&:hover {
 
 				.cta-block-text {
@@ -107,7 +111,7 @@ body.page-template-default {
 			padding: $sectionpadding/2 0;
 
 			@media only screen and (max-width: $mediumdevice) {
-				padding: $sectionpadding/2 0;
+				padding: $sectionpadding/3 0;
 			}
 		}
 
@@ -115,7 +119,7 @@ body.page-template-default {
 			padding: $sectionpadding/2 0 0;
 
 			@media only screen and (max-width: $mediumdevice) {
-				padding: $sectionpadding/2 0 0;
+				padding: $sectionpadding/3 0 0;
 			}
 		}
 
@@ -123,7 +127,7 @@ body.page-template-default {
 			padding: 0 0 $sectionpadding/2;
 
 			@media only screen and (max-width: $mediumdevice) {
-				padding: 0 0 $sectionpadding/2;
+				padding: 0 0 $sectionpadding/3;
 			}
 		}
 
