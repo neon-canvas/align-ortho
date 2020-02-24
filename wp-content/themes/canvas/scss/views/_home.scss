@@ -95,6 +95,16 @@ body.home {
 			}
 		}
 
+		ul {
+			color: white;
+			text-align: left;
+
+			li {
+				line-height: 1.2em;
+				margin: 0 0 15px;
+			}
+		}
+
 		.content-wrapper {
 
 			@media screen and (min-width: $mediumdevice) {
@@ -302,6 +312,7 @@ body.home {
 		}
 
 		.logos {
+			margin: 0 0 25px;
 
 			.logo {
 				margin: 0 20px 0 -60px;
@@ -319,6 +330,7 @@ body.home {
 					display: block;
 					position: relative;
 					z-index: 3;
+					max-width: 120px;
 				}
 			}
 		}

@@ -8,7 +8,7 @@ get_header(); ?>
 <main>
 	<section class="banner">
 		<div class="banner-message">
-			<h1>Your Family Orthodontics Since 1989</h1>
+			<h1>Your Family Orthodontist Since 1989</h1>
 			<p>A New Name, The Same Private Practice</p>
 			<a href="/free-consult" class="btn">Schedule Your Free Consultation</a>
 		</div>
@@ -25,7 +25,8 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
 					<h4 class="fade-element">Making Grand Rapids Smile for 30 Years</h4>
-					<h2 class="fade-element">We’ve been your family’s orthodontist since 1989, and we’ve created thousands of smiles. With one office for kids and teens and another one devoted to adults, there’s no reason to go anywhere else.</h2>
+					<h2 class="fade-element">As your family’s orthodontist since 1989, we’ve created thousands of unforgettable smiles in Grand Rapids. With one office for kids and teens and another one devoted to adults, there’s no reason to go anywhere else.</h2>
+					<a href="/our-offices/" class="btn">Why Choose Us</a>
 				</div>
 			</div>
 		</div>
@@ -36,11 +37,11 @@ get_header(); ?>
 				<div class="col-xs-12 col-sm-6 col-md-4 col-one">
 					<div class="content-wrapper fade-element">
 						<img src="/wp-content/themes/canvas/img/pattern-diamonds.png" alt="diamond background pattern" class="pattern no-mobile-parallax" data-parallax='{"y": -90}'>
-						<h4>One Location</h4>
-						<h3>Two Great Offices, One for Adults, and another for Children and Teens</h3>
+						<h4>Serving Children, Teens & Adults</h4>
+						<h3>One Office for Adults, One for Children and Teens</h3>
 						<div class="arrow-up"></div>
 						<p>Your comfort is important, that’s why we have two offices. Adults have a special office just for them, while kids and teens get their own office.</p>
-						<a href="#" class="underline-btn">Learn More</a>
+						<a href="/our-office" class="underline-btn">See Our Offices</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-8 col-two">
@@ -66,10 +67,23 @@ get_header(); ?>
 				<div class="col-xs-12 col-sm-6 col-md-5">
 					<div class="content-wrapper fade-element">
 						<img src="/wp-content/themes/canvas/img/pattern-diamonds.png" alt="diamond background pattern" class="pattern no-mobile-parallax" data-parallax='{"y": -90}'>
-						<h4>Meet Doctor</h4>
+						<h4>Meet the Doctor</h4>
 						<h3>Larry Majnerski, DDS MSD</h3>
 						<div class="arrow-up"></div>
-						<p>Your comfort is important, that’s why we have two offices. Adults have a special office just for them, while kids and teens get their own office.</p>
+						<div class="row">
+							<div class="col-xs-12 col-sm-6">
+								<ul>
+									<li>Bay City, MI - Hometown</li>
+									<li>University of Michigan - Undergrad & Dental School</li>
+								</ul>
+							</div>
+							<div class="col-xs-12 col-sm-6">
+								<ul>
+									<li>Sinai Hospital of Detroit - Hospital Residency</li>
+									<li>Mayo Clinic Graduate School of Medicine - Orthodontic Residency</li>
+								</ul>
+							</div>
+						</div>
 						<a href="#" class="underline-btn" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
 						<div class="underline-btn play-btn" data-video-id="HNUM3tDb2so" style="margin: 0 15px 25px; display: inline-block;"><i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majnerski</div>
 					</div>
@@ -97,6 +111,7 @@ get_header(); ?>
 	<section class="home-before-and-afters">
 		<div class="container-lrg">
 			<h2>Our Smiles Speak for Themselves</h2>
+			<p>You’ll see from these amazing before and after photos that no one creates smiles in West Michigan like Dr. Majnerski. Whether you're looking for Invisalign, help with snoring or rebuilding worn teeth, he can help you and your child.</p>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
 					<img src="/wp-content/uploads/2020/02/14-1024x576-1.jpg" alt="before and after image" class="fade-element">
@@ -108,25 +123,26 @@ get_header(); ?>
 					<img src="/wp-content/uploads/2020/02/19-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 			</div>
-			<a href="/before-afters/" class="btn fade-element">View All</a>
+			<a href="/before-afters/" class="btn fade-element">See More Before &amp; Afters</a>
 		</div>
 	</section>
 	<section class="home-awards">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
-					<h2 class="fade-element">Grand Rapids Most Experienced Invisalign Provider</h2>
-					<!-- <h4 class="fade-element">West Michigan’s First Invisalign Elite Preferred Provider</h4> -->
-					<p class="fade-element">Dr. Majznerski has pioneered in the treatment of patients with Invisalign and is Grand Rapid’s first Invisalign Elite Preferred provider and Invisalign Teen provider. Meaning he is in the top 1% of all Invisalign and Invisalign Teen Doctors in the world!</p>
+					<h2 class="fade-element">See Grand Rapids’ Most Experienced Invisalign Provider</h2>
+					<p class="fade-element">Dr. Majznerski helped pioneer Invisalign treatment.</p>
+					<p class="fade-element">As Grand Rapids’ first Invisalign Elite Preferred provider, he’s created more smiles for teens and adults using Invisalign than 99% of anyone else.</p>
+					<p class="fade-element">There’s no reason to see anyone else for your smile.</p>
 				</div>
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1">
 					<div class="logos">
-						<div class="logo fade-element">
+						<!-- <div class="logo fade-element">
 							<img src="/wp-content/themes/canvas/img/2012-invisalign-provider.png" alt="2012 invisalign award">
 						</div>
 						<div class="logo fade-element">
 							<img src="/wp-content/themes/canvas/img/2013-invisalign-provider.png" alt="2013 invisalign award">
-						</div>
+						</div> -->
 						<div class="logo fade-element">
 							<img src="/wp-content/themes/canvas/img/2014-invisalign-provider.png" alt="2014 invisalign award">
 						</div>
@@ -142,7 +158,14 @@ get_header(); ?>
 						<div class="logo fade-element">
 							<img src="/wp-content/themes/canvas/img/2018-invisalign-provider.png" alt="2018 invisalign award">
 						</div>
+						<div class="logo fade-element">
+							<img src="/wp-content/uploads/2020/02/inv-2019.jpg" alt="invisalign 2019 award">
+						</div>
+						<div class="logo fade-element">
+							<img src="/wp-content/uploads/2020/02/inv-2020.jpg" alt="invisalign 2020 award">
+						</div>
 					</div>
+					<a href="/invisalign" class="btn">Learn More About Invisalign</a>
 				</div>
 			</div>
 		</div>
@@ -173,7 +196,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Traditional braces have been around for a long time, and they’re probably the most recognizable symbol of orthodontics. These orthodontic workhouses have a long history of successful treatment and are great at correcting many oral issues.</p>
+									<p>Our metal braces are more comfortable, lighter and efficient than ever before.</p>
 									<p><a href="/metal-braces" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
@@ -184,7 +207,7 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Ceramic braces are also referred to as clear braces, tooth-colored braces, or aesthetic braces. They work the same way metal braces do. Our clear braces are designed to be less noticeable on your teeth than metal braces. They're smaller than ever and made of nearly invisible tooth-colored polycrystalline ceramic material.</p>
+									<p>Ceramic braces work just as well as metal braces, but they’re harder to notice.</p>
 									<p><a href="/clear-braces" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
@@ -195,18 +218,18 @@ get_header(); ?>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>Most people snore from time to time. However, loud snoring that happens the majority of the time, also known as chronic snoring, can negatively affect you and others in your home.</p>
+									<p>Most people snore, but if it’s affecting your life, we can help you.</p>
 									<p><a href="/snoring/" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>
 						</li>
 						<li>
-							<div class="dropdownlink restoration-link">Tooth Restoration &amp; Repairing Worn Teeth
+							<div class="dropdownlink restoration-link">Rebuilding Worn Teeth
 								<div class="plus-icon"><span></span><span></span></div>
 							</div>
 							<ul class="submenuItems">
 								<li>
-									<p>More than 80% of adults experience tooth wear related to a bite problem. Sometimes tooth wear is caused by grinding, but not always. If you have worn teeth from a bad bite, you may need dental treatment to restore lost enamel. You may also need orthodontic treatment to correct your bite before any other work can be completed.</p>
+									<p>See Dr. Majznerski to rebuild and reshape your smile to give you your confidence back.</p>
 									<p><a href="/rebuilding-worn-teeth/" class="underline-btn">Learn More</a></p>
 								</li>
 							</ul>

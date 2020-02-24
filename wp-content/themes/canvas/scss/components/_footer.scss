@@ -58,6 +58,33 @@ footer {
 		}
 	}
 
+	.footer-top {
+		padding: $sectionpadding/2 0;
+		background: #f9f9f9;
+
+		a.logo {
+			width: 220px;
+			margin: 0 0 25px;
+		}
+
+		a.rewards-logo {
+			
+			img {
+				display: block;
+				max-width: 300px;
+
+				@media screen and (max-width: $mediumdevice) {
+					margin: 0 0 25px;
+				}
+			}
+		}
+
+		.underline-btn {
+			font-size: 12px;
+			white-space: nowrap;
+		}
+	}
+
 	.footer-bottom {
 		background: $black;
 		padding: 15px 40px;

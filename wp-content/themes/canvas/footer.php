@@ -10,7 +10,8 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-6 consult-col">
 			<div class="footer-contact-info">
-				<h2>Schedule a Free Consult</h2>
+				<h2>Schedule Your Free Consult</h2>
+				<p>Take the first step towards a confident new smile with your first free consultation exam.</p>
 				<?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
 			</div>
 		</div>
@@ -18,6 +19,26 @@
 			<div class="map-bg"></div>
 			<div class="footer-cta-wrapper">
 				<a href="https://g.page/AlignOrthoMI?share" target="_blank"></a>
+			</div>
+		</div>
+	</div>
+	<div class="footer-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<a href="/" class="logo">
+						<img src="/wp-content/themes/canvas/img/logo.svg" alt="align orthodontics logo">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<a href="https://align-orthdontics.patientrewardshub.com" target="_blank" class="rewards-logo">
+						<img src="/wp-content/uploads/2019/01/unnamed-1.png" alt="patient rewards hub logo">
+					</a>
+				</div>
+				<div class="col-xs-12 col-sm-3">
+					<h3>Join Our Team</h3>
+					<a href="/careers" class="underline-btn"><i class="fa fa-user-o" aria-hidden="true"></i> See Open Positions</a>
+				</div>
 			</div>
 		</div>
 	</div>
