@@ -5,6 +5,10 @@ footer {
 	z-index: 2;
 	border-top: 1px solid $ltgrey;
 
+	@media screen and (max-width: $mediumdevice) {
+		text-align: center;
+	}
+
 	.footer-contact-info {
 		max-width: 500px;
 		padding: 130px 20px;
@@ -21,6 +25,13 @@ footer {
 			padding: 0;
 			font-family: $secfont;
 			font-weight: 400;
+		}
+
+		.gform_footer {
+
+			@media screen and (max-width: $mediumdevice) {
+				text-align: center;
+			}
 		}
 	}
 
@@ -62,20 +73,30 @@ footer {
 		padding: $sectionpadding/2 0;
 		background: #f9f9f9;
 
+		@media screen and (max-width: $mediumdevice) {
+			text-align: center;
+		}
+
 		a.logo {
 			width: 220px;
 			margin: 0 0 25px;
+			display: table;
+
+			@media screen and (max-width: $mediumdevice) {
+				margin: 0 auto 25px;
+			}
 		}
 
 		a.rewards-logo {
+			display: table;
+
+			@media screen and (max-width: $mediumdevice) {
+				margin: 0 auto 25px;
+			}
 			
 			img {
 				display: block;
 				max-width: 300px;
-
-				@media screen and (max-width: $mediumdevice) {
-					margin: 0 0 25px;
-				}
 			}
 		}
 
