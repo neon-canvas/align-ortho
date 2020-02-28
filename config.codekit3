@@ -42653,6 +42653,14 @@
 		"oAP": "/wp-content/themes/canvas/archive.php",
 		"oF": 0
 		},
+	"/wp-content/themes/canvas/before-and-after.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/before-and-after.php",
+		"oF": 0
+		},
 	"/wp-content/themes/canvas/comments.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -42906,6 +42914,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/bg-dr-majznerski-headshot-square-cutout.jpg": {
+		"ft": 16384,
+		"iS": 94960,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/bg-dr-majznerski-headshot-square-cutout.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/bg-dr-majznerski-square-old.jpg": {
 		"ft": 16384,
 		"iS": 215136,
@@ -42981,6 +43000,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/wp-content/themes/canvas/img/bg-testimonial-headshot-2.png": {
+		"ft": 32768,
+		"iS": 432686,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/bg-testimonial-headshot-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"/wp-content/themes/canvas/img/bg-treatments-ceramic-braces.jpg": {
@@ -43188,6 +43218,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/ortho-for-all-ages.png": {
+		"ft": 32768,
+		"iS": 316442,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/ortho-for-all-ages.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/pattern-diamonds.png": {
 		"ft": 32768,
 		"iS": 16554,
@@ -43205,8 +43246,8 @@
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/img/signature-placeholder-drk.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -43825,6 +43866,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/wp-content/themes/canvas/scss/views/_404.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/wp-content/themes/canvas/scss/views/_before-and-afters.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/wp-content/themes/canvas/scss/views/_before-and-afters.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

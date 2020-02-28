@@ -17,6 +17,7 @@
 
 	&:before {
 		@include overlay;
+		opacity: .75;
 	}
 
 	h1,
@@ -33,6 +34,7 @@
 
 		@media screen and (max-width: $mediumdevice) {
 			height: 600px;
+			margin: 0;
 		}
 
 		@media screen and (max-width: $smalldevice) {

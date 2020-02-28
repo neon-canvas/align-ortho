@@ -1,0 +1,35 @@
+body.page-template-before-and-after {
+	
+	a.cta-block {
+		height: 300px !important;
+
+		&:hover {
+
+			.btn {
+				background: transparent !important;
+				transform: none !important;
+			}
+		}
+
+		.cta-block-text {
+			top: 0;
+			left: 0;
+			bottom: auto;
+			padding: 30px;
+		}
+
+		h3 {
+			margin: 0;
+		}
+
+		.btn {
+			background: transparent;
+			padding: 0;
+			line-height: 30px;
+		}
+	}
+
+	section.content {
+		padding-top: 50px;
+	}
+}

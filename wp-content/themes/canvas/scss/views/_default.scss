@@ -1,4 +1,5 @@
-body.page-template-default {
+body.page-template-default,
+body.page-template-before-and-after {
 
 	section.banner {
 		background-position: top;
@@ -56,7 +57,7 @@ body.page-template-default {
 				.btn {
 					color: white !important;
 					transform: translateY(-3px);
-					background: darken($blue, 14%) !important;
+					background: darken($blue, 14%);
 
 					.btn-bg {
 						opacity: 1;
@@ -80,6 +81,7 @@ body.page-template-default {
 				height: 102%;
 				width: 102%;
 				background-size: cover !important;
+				background-position: center !important;
 
 				&:before {
 					content: "";
@@ -133,6 +135,73 @@ body.page-template-default {
 
 		.black-bg {
 			background: $black;
+		}
+
+		.meet-the-doc {
+
+			.headshot-wrapper {
+				position: relative;
+
+				.dr-headshot {
+					width: 100%;
+					margin: 0 0 25px;
+					display: block;
+				}
+
+				.play-btn {
+					@include trans;
+					position: absolute;
+					right: 30px;
+					bottom: 30px;
+					font-size: 50px;
+					z-index: 3;
+					color: $blue;
+
+					&:hover {
+						opacity: .5;
+					}
+				}
+			}
+
+			p {
+				color: $black;
+			}
+
+			.dr-logos {
+				text-align: center;
+
+				.award-logo {
+					display: inline-block;
+					max-width: 100px;
+					vertical-align: middle;
+					margin: 0 15px;
+				}
+			}
+
+			.highlights {
+				margin: 0 auto 25px;
+				max-width: 600px;
+
+				ul {
+					padding: 0;
+					margin: 0;
+					list-style: none;
+
+					li {
+						line-height: 1.2em;
+						margin: 0 0 15px;
+						font-size: 14px;
+					}
+				}
+			}
+
+			.play-btn {
+				cursor: pointer;
+			}
+
+			.content-wrapper {
+				padding: 0;
+			}
 		}
 
 		.grey-bg {

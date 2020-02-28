@@ -40,14 +40,30 @@ $default-btn-border-color: $default-btn-bg-color;
 	font-family: $secbold;
 
 	&:hover {
-		background: #333;
-		color: white;
+		background: $yellow;
+		color: $blue;
 	}
 
 	.fa {
 		display: inline-block;
 		vertical-align: middle;
 		margin: 0 0 5px 5px;
+	}
+
+	&.sml {
+		line-height: 45px;
+		padding: 0 20px;
+		font-size: 14px;
+	}
+
+	&.yellow {
+		background: $yellow;
+		color: $blue;
+
+		&:hover {
+			background: darken($blue, 7%);
+			color: white;
+		}
 	}
 }
 
@@ -78,10 +94,11 @@ $default-btn-border-color: $default-btn-bg-color;
 	border: $default-btn-border-style $btn-border-width white;
 	outline: 0;
 	cursor: pointer;
+	font-family: $secbold;
 
 	&:hover {
 		color: white;
-		background: $btn-color;
+		background: darken($btn-color, 7%);
 	}
 }
 
@@ -89,11 +106,24 @@ $default-btn-border-color: $default-btn-bg-color;
 .btn {
 	@include btn;
 	@include trans;
+
+
+	@media screen and (max-width: $mediumdevice) {
+		font-size: 13px;
+		line-height: 45px;
+		padding: 0 20px;
+	}
 }
 
 .btn-hollow {
 	@include btn-hollow;
 	@include trans;
+
+	@media screen and (max-width: $mediumdevice) {
+		font-size: 13px;
+		line-height: 45px;
+		padding: 0 20px;
+	}
 }
 
 
@@ -111,5 +141,10 @@ $default-btn-border-color: $default-btn-bg-color;
 	&:hover {
 		color: $blue;
 		border-bottom: 2px solid #333;
+	}
+
+
+	@media screen and (max-width: $mediumdevice) {
+		font-size: 13px;
 	}
 }

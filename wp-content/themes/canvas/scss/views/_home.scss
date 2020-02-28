@@ -45,6 +45,96 @@ body.home {
 		}
 	}
 
+	section.meet-the-doctor {
+
+		.headshot-wrapper {
+			position: relative;
+
+			.dr-headshot {
+				width: 100%;
+				margin: 0 0 25px;
+				display: block;
+			}
+
+			.play-btn {
+				@include trans;
+				position: absolute;
+				right: 30px;
+				bottom: 30px;
+				font-size: 50px;
+				z-index: 3;
+				color: $blue;
+
+				&:hover {
+					opacity: .5;
+				}
+			}
+		}
+
+		p {
+			color: $black;
+		}
+
+		.dr-logos {
+			text-align: center;
+
+			.award-logo {
+				display: inline-block;
+				max-width: 100px;
+				vertical-align: middle;
+				margin: 0 20px 10px;
+
+				&.mda-logo {
+
+					@media screen and (max-width: 1000px) {
+						margin-bottom: 25px;
+					}
+				}
+			}
+		}
+
+		.highlights {
+			margin: 0 auto 25px;
+			max-width: 600px;
+
+			ul {
+				padding: 0;
+				margin: 0;
+				list-style: none;
+
+				li {
+					line-height: 1.2em;
+					margin: 0 0 15px;
+					font-size: 14px;
+				}
+			}
+		}
+
+		.play-btn {
+			cursor: pointer;
+		}
+
+		.content-wrapper {
+			padding: 0;
+		}
+	}
+
+	section.home-before-and-afters {
+		text-align: center;
+
+		p {
+			margin: 0 0 80px;
+
+			@media screen and (max-width: $smalldevice) {
+				margin: 0 0 40px;
+			}
+		}
+
+		.btn {
+			margin-top: 40px;
+		}
+	}
+
 	section.welcome {
 		text-align: center;
 
@@ -57,7 +147,6 @@ body.home {
 	}
 
 	section.our-office {
-		padding-bottom: 0;
 
 		.col-one {
 
@@ -74,74 +163,21 @@ body.home {
 		}
 	}
 
-	section.meet-the-doctor {
-		padding-top: 0;
+	// section.home-logos {
+	// 	background: lighten($black, 10%);
+	// 	padding: 2em 0;
 
-		.dr-logos {
-			text-align: center;
-			margin: -75px 0 0;
-			display: block;
-			position: relative;
-			z-index: 3;
-			
-			@media screen and (max-width: $mediumdevice) {
-				margin: 0;
-			}
+	// 	.dr-award-logos {
+	// 		text-align: center;
 
-			img.logo-sml {
-				vertical-align: middle;
-				display: inline-block;
-				margin: 0 15px 5px;
-			}
-		}
-
-		ul {
-			color: white;
-			text-align: left;
-
-			li {
-				line-height: 1.2em;
-				margin: 0 0 15px;
-			}
-		}
-
-		.content-wrapper {
-
-			@media screen and (min-width: $mediumdevice) {
-				margin-top: 45px;
-			}
-		}
-	}
-
-	section.home-logos {
-		background: lighten($black, 10%);
-		padding: 2em 0;
-
-		.dr-award-logos {
-			text-align: center;
-
-			.award-logo {
-				display: inline-block;
-				max-width: 120px;
-				vertical-align: middle;
-				margin: 0 25px;
-			}
-		}
-	}
-
-	section.home-before-and-afters {
-		text-align: center;
-		background: $black;
-
-		h2 {
-			color: white;
-			margin: 0 0 40px;
-		}
-
-		.btn {
-			margin-top: 40px;
-		}
-	}
+	// 		.award-logo {
+	// 			display: inline-block;
+	// 			max-width: 120px;
+	// 			vertical-align: middle;
+	// 			margin: 0 25px;
+	// 		}
+	// 	}
+	// }
 
 	section.home-treatments {
 		background: white url(/wp-content/themes/canvas/img/bg-treatments-invisalign-v2.jpg);
@@ -264,6 +300,10 @@ body.home {
 	section.home-testimonials {
 		padding-bottom: $sectionpadding/2;
 
+		.play-btn {
+			cursor: pointer;
+		}
+
 		.underline-btn {
 			cursor: pointer;
 			display: inline-block;
@@ -286,9 +326,13 @@ body.home {
 	}
 
 	section.insta-feed {
-		padding: 0;
 		position: relative;
 		z-index: 3;
+		padding: 0 0 $sectionpadding;
+
+		@media screen and (max-width: $mediumdevice) {
+			padding: 0 0 $sectionpadding/2;
+		}
 
 		&:after {
 			content: "";
@@ -303,12 +347,16 @@ body.home {
 
 	section.home-awards {
 		text-align: center;
-		background: #f9f9f9;
+		border-bottom: 1px solid $ltgrey;
 
 		h4 {
 			margin-left: auto;
 			margin-right: auto;
 			max-width: 400px;
+		}
+
+		.invisalign-awards {
+			margin-bottom: 25px;
 		}
 
 		.logos {
