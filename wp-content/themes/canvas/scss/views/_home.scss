@@ -17,6 +17,7 @@ body.home {
 				top: auto;
 				bottom: 0;
 				transform: translateX(-50%);
+				padding: 25px;
 			}
 
 			h1 {
@@ -45,16 +46,53 @@ body.home {
 		}
 	}
 
+	section.welcome {
+
+		@media screen and (max-width: $mediumdevice) {
+			text-align: center;
+		}
+
+		h2 {
+
+			@media screen and (max-width: $smalldevice) {
+				font-size: 22px;
+			}
+		}
+
+		img.provider-logo {
+			max-width: 200px;
+
+			@media screen and (max-width: $mediumdevice) {
+				margin: 30px 0 0;
+			}
+		}
+	}
+
 	section.meet-the-doctor {
+		background: $ltblue;
+		padding-bottom: 0;
+		padding-top: $sectionpadding/2;
+
+		h2 {
+			color: white;
+
+			@media screen and (max-width: $mediumdevice) {
+		    	margin: 0 0 -15px;
+			}
+		}
+
+		.dr-headshot {
+			margin: 0;
+			display: block;
+			width: 100%;
+
+			@media screen and (max-width: $mediumdevice) {
+		    	margin: 0 0 30px;
+			}
+		}
 
 		.headshot-wrapper {
 			position: relative;
-
-			.dr-headshot {
-				width: 100%;
-				margin: 0 0 25px;
-				display: block;
-			}
 
 			.play-btn {
 				@include trans;
@@ -96,6 +134,7 @@ body.home {
 		.highlights {
 			margin: 0 auto 25px;
 			max-width: 600px;
+			color: white;
 
 			ul {
 				padding: 0;
@@ -117,6 +156,19 @@ body.home {
 		.content-wrapper {
 			padding: 0;
 		}
+
+		.logos-wrapper {
+			background: $blue;
+			width: 100%;
+			padding: 20px;
+		}
+	}
+
+	section.our-office {
+
+		.content-wrapper {
+			padding: 0 25px;
+		}
 	}
 
 	section.home-before-and-afters {
@@ -134,50 +186,6 @@ body.home {
 			margin-top: 40px;
 		}
 	}
-
-	section.welcome {
-		text-align: center;
-
-		h2 {
-
-			@media screen and (max-width: $smalldevice) {
-				font-size: 22px;
-			}
-		}
-	}
-
-	section.our-office {
-
-		.col-one {
-
-			@media screen and (max-width: $mediumdevice) {
-				order: 1;
-			}
-		}
-
-		.col-two {
-
-			@media screen and (max-width: $mediumdevice) {
-				order: 0;
-			}
-		}
-	}
-
-	// section.home-logos {
-	// 	background: lighten($black, 10%);
-	// 	padding: 2em 0;
-
-	// 	.dr-award-logos {
-	// 		text-align: center;
-
-	// 		.award-logo {
-	// 			display: inline-block;
-	// 			max-width: 120px;
-	// 			vertical-align: middle;
-	// 			margin: 0 25px;
-	// 		}
-	// 	}
-	// }
 
 	section.home-treatments {
 		background: white url(/wp-content/themes/canvas/img/bg-treatments-invisalign-v2.jpg);

@@ -49,12 +49,17 @@ body.page-template-no-header {
 				h1 {
 					font-size: 40px;
 					line-height: 1.2em;
+					margin: 0 0 15px;
 				}
 
 				p {
 					font-size: 15px;
 					line-height: 1.35em;
-					margin: 0;
+					margin: 0 0 15px;
+
+					&:last-of-type {
+						margin: 0;
+					}
 				}
 
 				a {
@@ -64,6 +69,10 @@ body.page-template-no-header {
 					&:hover {
 						opacity: .5;
 					}
+				}
+
+				.btn {
+					color: white !important;
 				}
 
 				input {

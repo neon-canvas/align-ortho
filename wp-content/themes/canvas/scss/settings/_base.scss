@@ -226,3 +226,17 @@ ul.ba-anchor-nav {
     	max-width: 100% !important;
 	}
 }
+
+.mobile-hide {
+
+	@media screen and (max-width: $mediumdevice) {
+    	display: none !important;
+	}
+}
+
+.mobile-show {
+
+	@media screen and (min-width: $mediumdevice) {
+    	display: none !important;
+	}
+}

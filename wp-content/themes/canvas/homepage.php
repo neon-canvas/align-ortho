@@ -14,89 +14,68 @@ get_header(); ?>
 		</div>
 		<div class="bgvideo">
 			<video width="100%" height="100%" autoplay muted loop playsinline preload="metadata">
-				<source src="/wp-content/themes/canvas/video/header-bg.webm" type="video/webm">
-				<source src="/wp-content/themes/canvas/video/header-bg.mp4" type="video/mp4">
-				<source src="/wp-content/themes/canvas/video/header-bg.ogv" type="video/ogg">
+				<source src="/wp-content/themes/canvas/video/header-bg-v2.webm" type="video/webm">
+				<source src="/wp-content/themes/canvas/video/header-bg-v2.mp4" type="video/mp4">
+				<source src="/wp-content/themes/canvas/video/header-bg-v2.ogv" type="video/ogg">
 			</video>
-		</div>
-	</section>
-	<section class="meet-the-doctor">
-		<div class="container-lrg">
-			<div class="row middle-xs">
-				<div class="col-xs-12 col-sm-6 col-md-5">
-					<img src="/wp-content/themes/canvas/img/bg-dr-majznerski-headshot-square-cutout.jpg" alt="dr. majznerski headshot" class="dr-headshot fade-element">
-				</div>
-				<div class="col-xs-12 col-sm-6 col-md-7">
-					<div class="content-wrapper fade-element">
-						<!-- <img src="/wp-content/themes/canvas/img/pattern-diamonds.png" alt="diamond background pattern" class="pattern no-mobile-parallax" data-parallax='{"y": -90}'> -->
-						<!-- <h4>Meet the Doctor</h4> -->
-						<h3>Dr. Larry Majznerski, DDS MSD</h3>
-						<div class="arrow-up"></div>
-						<div class="row highlights">
-							<div class="col-xs-12 col-sm-6">
-								<ul>
-									<li><strong>Bay City, MI -</strong><br/>Hometown</li>
-									<li><strong>University of Michigan -</strong><br/>Undergrad & Dental School</li>
-								</ul>
-							</div>
-							<div class="col-xs-12 col-sm-6">
-								<ul>
-									<li><strong>Sinai Hospital of Detroit -</strong><br/>Hospital Residency</li>
-									<li><strong>Mayo Clinic -<br/></strong>Orthodontic Residency</li>
-									<!-- <li><strong>Mayo Clinic Graduate School of Medicine -</strong>Orthodontic Residency</li> -->
-								</ul>
-							</div>
-						</div>
-						<a href="#" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
-						<div class="btn yellow sml play-btn" data-video-id="mieTke9N9xs" style="margin: 0 15px 25px; display: inline-block;">
-							<i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majznerski
-						</div>
-						<div class="dr-logos">
-							<img src="/wp-content/uploads/2020/02/dr-larry-signature.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
-						</div>
-						<div class="dr-logos">
-							<img src="/wp-content/uploads/2020/02/mayo-alumni-200KB.png" alt="mayo clinic logo" class="award-logo" style="max-width: 80px;">
-							<img src="/wp-content/uploads/2020/02/DMC-100KB-full.jpg" alt="dmc logo" class="award-logo" style="max-width: 110px;">
-							<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="award-logo" style="max-width: 80px;">
-							<img src="/wp-content/uploads/2020/02/AAO-logo-M-clr-s.jpg" alt="aao logo" class="award-logo">
-							<img src="/wp-content/uploads/2020/02/MDA-m.png" alt="mda logo" class="award-logo mda-logo" style="max-width: 150px;">
-							<img src="/wp-content/uploads/2020/02/Michigan-Dent-transp-hi-res.png" alt="university of michigan logo" class="award-logo" style="
-							max-width: 150px;">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<section class="home-before-and-afters ltgrey-section">
-		<div class="container-lrg">
-			<div class="row">
-				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-					<h2 class="fade-element">Our Smiles Speak for Themselves</h2>
-					<p class="fade-element">You’ll see from these amazing before and after photos that no one creates smiles in West Michigan like Dr. Majznerski. Whether you're looking for Invisalign, help with snoring or rebuilding worn teeth, he can help you and your child.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xs-12 col-sm-4">
-					<img src="/wp-content/uploads/2020/02/14-1024x576-1.jpg" alt="before and after image" class="fade-element">
-				</div>
-				<div class="col-xs-12 col-sm-4">
-					<img src="/wp-content/uploads/2020/02/8-1024x576-1.jpg" alt="before and after image" class="fade-element">
-				</div>
-				<div class="col-xs-12 col-sm-4">
-					<img src="/wp-content/uploads/2020/02/19-1024x576-1.jpg" alt="before and after image" class="fade-element">
-				</div>
-			</div>
-			<a href="/before-afters/" class="btn fade-element">See More Before &amp; Afters</a>
 		</div>
 	</section>
 	<section class="welcome">
 		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+			<div class="row middle-xs">
+				<div class="col-xs-12 col-sm-8">
 					<h4 class="fade-element">Making Grand Rapids Smile for 30 Years</h4>
 					<h2 class="fade-element">As your family’s orthodontist since 1989, we’ve created thousands of unforgettable smiles in Grand Rapids. With one office for kids and teens and another one devoted to adults, there’s no reason to go anywhere else.</h2>
 					<a href="/our-offices/" class="btn fade-element">Why Choose Us</a>
+				</div>
+				<div class="col-xs-12 col-sm-3 col-sm-offset-1">
+					<img src="/wp-content/uploads/2020/02/inv-2020.jpg" alt="invigalign 20 years provider logo" class="provider-logo fade-element">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="meet-the-doctor">
+		<div class="row middle-xs">
+			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
+				<div class="content-wrapper fade-element">
+					<h2>Dr. Larry Majznerski, DDS MSD</h2>
+					<img src="/wp-content/uploads/2020/03/bg-dr-majznerski-headshot-transparent.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-show">
+					<div class="arrow-up"></div>
+					<div class="row highlights">
+						<div class="col-xs-12 col-sm-6">
+							<ul>
+								<li><strong>Bay City, MI -</strong><br/>Hometown</li>
+								<li><strong>University of Michigan -</strong><br/>Undergrad & Dental School</li>
+							</ul>
+						</div>
+						<div class="col-xs-12 col-sm-6">
+							<ul>
+								<li><strong>Sinai Hospital of Detroit -</strong><br/>Hospital Residency</li>
+								<li><strong>Mayo Clinic -<br/></strong>Orthodontic Residency</li>
+							</ul>
+						</div>
+					</div>
+					<a href="#" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
+					<div class="btn yellow sml play-btn" data-video-id="mieTke9N9xs" style="margin: 0 15px 25px; display: inline-block;">
+						<i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majznerski
+					</div>
+					<div class="dr-logos">
+						<img src="/wp-content/uploads/2020/03/dr-larry-signature-all-white.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-5">
+				<img src="/wp-content/uploads/2020/03/bg-dr-majznerski-headshot-transparent.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-hide">
+			</div>
+			<div class="logos-wrapper">
+				<div class="dr-logos">
+					<img src="/wp-content/uploads/2020/02/Mayo-Clinic-Alumnus-White-Logo.png" alt="mayo clinic logo" class="award-logo" style="max-width: 80px;">
+					<img src="/wp-content/uploads/2020/02/DMC-100KB-full.jpg" alt="dmc logo" class="award-logo" style="max-width: 110px;">
+					<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="award-logo" style="max-width: 80px;">
+					<img src="/wp-content/uploads/2020/03/AAO-logo-reversed.png" alt="aao logo" class="award-logo">
+					<img src="/wp-content/uploads/2020/03/MDA-m-reversed.png" alt="mda logo" class="award-logo mda-logo" style="max-width: 150px;">
+					<img src="/wp-content/uploads/2020/02/Michigan-Dent-transp-hi-res-reversed.png" alt="university of michigan logo" class="award-logo" style="
+					max-width: 150px;">
 				</div>
 			</div>
 		</div>
@@ -104,39 +83,27 @@ get_header(); ?>
 	<section class="our-office ltgrey-section">
 		<div class="container">
 			<div class="row middle-xs">
-				<div class="col-xs-12 col-sm-6 col-md-4 col-one">
+				<div class="col-xs-12 col-sm-6 col-md-6 col-one">
 					<div class="content-wrapper fade-element">
-						<!-- <img src="/wp-content/themes/canvas/img/pattern-diamonds.png" alt="diamond background pattern" class="pattern no-mobile-parallax" data-parallax='{"y": -90}'> -->
-						<h4>Serving Children, Teens & Adults</h4>
-						<h3>One Office for Adults, One for Children and Teens</h3>
+						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages-adults.png" alt="patient smiling during visit" class="fade-element">
+						<h3>One Office for Adults</h3>
 						<div class="arrow-up"></div>
-						<p>Your comfort is important, that’s why we have two offices. Adults have a special office just for them, while kids and teens get their own office.</p>
-						<a href="/our-office" class="underline-btn">See Our Offices</a>
+						<p>We treat as many adults as we do children and teens, so we decided to give you the best possible experience while transforming your smile.</p>
+						<a href="/our-offices" class="underline-btn">See Our Offices</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-8 col-two">
-					<img src="/wp-content/themes/canvas/img/ortho-for-all-ages.png" alt="patient smiling during visit" class="fade-element">
+				<div class="col-xs-12 col-sm-6 col-md-6">
+					<div class="content-wrapper fade-element">
+						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages.png" alt="patient smiling during visit" class="fade-element">
+						<h3>One Office for Children &amp; Teens</h3>
+						<div class="arrow-up"></div>
+						<p>Children and teens enjoy getting their new smiles in an environment designed specifically for them.</p>
+						<a href="/our-offices" class="underline-btn">See Our Offices</a>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- <section class="home-logos">
-		<div class="container-lrg">
-			<div class="dr-award-logos">
-				<img src="/wp-content/uploads/2020/02/DMC-100KB-full.jpg" alt="dmc logo" class="award-logo" style="
-			margin-top: 10px;
-			">
-				<img src="/wp-content/uploads/2020/02/AAO-white-letter.png" alt="aao logo" class="award-logo">
-				<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="fade-element award-logo" data-sr-id="7" style="visibility: visible; opacity: 1; transition: opacity 1.5s cubic-bezier(0.5, 0, 0, 1) 0.055s;">
-				<img src="/wp-content/uploads/2020/02/MDA-m.png" alt="mda logo" class="award-logo" style="
-			max-width: 180px;
-			">
-				<img src="/wp-content/uploads/2020/02/Michigan-Dent-transp-hi-res-reversed.png" alt="university of michigan logo" class="award-logo" style="
-			max-width: 180px;
-			">
-			</div>
-		</div>
-	</section> -->
 	<section class="home-awards">
 		<div class="container">
 			<div class="row">
@@ -146,29 +113,6 @@ get_header(); ?>
 					<p class="fade-element">As Grand Rapids’ first Invisalign Elite Preferred provider, he’s created more smiles for teens and adults using Invisalign than 99% of anyone else.</p>
 					<p class="fade-element">There’s no reason to see anyone else for your smile.</p>
 					<img src="/wp-content/uploads/2020/02/inv1-MB.png" alt="invisalign awards" class="invisalign-awards fade-element">
-					<!-- <div class="logos">
-						<div class="logo fade-element">
-							<img src="/wp-content/themes/canvas/img/2014-invisalign-provider.png" alt="2014 invisalign award">
-						</div>
-						<div class="logo fade-element">
-							<img src="/wp-content/themes/canvas/img/2015-invisalign-provider.png" alt="2015 invisalign award">
-						</div>
-						<div class="logo fade-element">
-							<img src="/wp-content/themes/canvas/img/2016-invisalign-provider.png" alt="2016 invisalign award">
-						</div>
-						<div class="logo fade-element">
-							<img src="/wp-content/themes/canvas/img/2017-invisalign-provider.png" alt="2017 invisalign award">
-						</div>
-						<div class="logo fade-element">
-							<img src="/wp-content/themes/canvas/img/2018-invisalign-provider.png" alt="2018 invisalign award">
-						</div>
-						<div class="logo fade-element">
-							<img src="/wp-content/uploads/2020/02/inv-2019.jpg" alt="invisalign 2019 award">
-						</div>
-						<div class="logo fade-element">
-							<img src="/wp-content/uploads/2020/02/inv-2020.jpg" alt="invisalign 2020 award">
-						</div>
-					</div> -->
 					<a href="/invisalign" class="btn fade-element">Learn More About Invisalign</a>
 				</div>
 			</div>
@@ -243,7 +187,29 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section class="home-testimonials ltgrey-section">
+	<section class="home-before-and-afters ltgrey-section">
+		<div class="container-lrg">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<h2 class="fade-element">Our Smiles Speak for Themselves</h2>
+					<p class="fade-element">You’ll see from these amazing before and after photos that no one creates smiles in West Michigan like Dr. Majznerski. Whether you're looking for Invisalign, help with snoring or rebuilding worn teeth, he can help you and your child.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<img src="/wp-content/uploads/2020/02/14-1024x576-1.jpg" alt="before and after image" class="fade-element">
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<img src="/wp-content/uploads/2020/02/8-1024x576-1.jpg" alt="before and after image" class="fade-element">
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<img src="/wp-content/uploads/2020/02/19-1024x576-1.jpg" alt="before and after image" class="fade-element">
+				</div>
+			</div>
+			<a href="/before-afters/" class="btn fade-element">See More Before &amp; Afters</a>
+		</div>
+	</section>
+	<section class="home-testimonials">
 		<div class="container">
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-one">

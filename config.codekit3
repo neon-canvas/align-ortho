@@ -43218,6 +43218,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/wp-content/themes/canvas/img/ortho-for-all-ages-adults.png": {
+		"ft": 32768,
+		"iS": 444873,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/img/ortho-for-all-ages-adults.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/wp-content/themes/canvas/img/ortho-for-all-ages.png": {
 		"ft": 32768,
 		"iS": 316442,
@@ -44012,6 +44023,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/wp-content/themes/canvas/template-parts/content.php",
+		"oF": 0
+		},
+	"/wp-content/themes/canvas/video/header-bg-v2.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/video/header-bg-v2.mp4",
+		"oF": 0
+		},
+	"/wp-content/themes/canvas/video/header-bg-v2.ogv": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/video/header-bg-v2.ogv",
+		"oF": 0
+		},
+	"/wp-content/themes/canvas/video/header-bg-v2.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/wp-content/themes/canvas/video/header-bg-v2.webm",
 		"oF": 0
 		},
 	"/wp-content/themes/canvas/video/header-bg.mp4": {

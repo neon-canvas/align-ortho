@@ -5,10 +5,10 @@ jQuery(function() {
   jQuery(document).ready(function() {
 
   var fooReveal = {
-    delay    : 55,
+    delay    : 35,
     scale    : 1,
-    interval: 300,
-    duration : 1500,
+    interval: 150,
+    duration : 1000,
   };
 
   window.sr = ScrollReveal();
