@@ -240,3 +240,17 @@ ul.ba-anchor-nav {
     	display: none !important;
 	}
 }
+
+.userway {
+	z-index: 9 !important;
+	@media only screen and (max-width: $mediumdevice) {
+    	bottom: 70px !important;
+	}
+}
+
+body.active {
+
+	.userway {
+		display: none !important;
+	}
+}

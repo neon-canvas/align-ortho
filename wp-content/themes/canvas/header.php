@@ -12,13 +12,15 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 
 	<?php // Favicons/application icons ?>
-	<link rel="icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" type="image/x-icon" />
-	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/favicon-16x16.png" sizes="16x16">
-	<link rel="manifest" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/manifest.json">
-	<link rel="mask-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicons/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="theme-color" content="#0e958b">
+	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/canvas/img/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/canvas/img/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/canvas/img/favicon-16x16.png">
+	<link rel="manifest" href="/wp-content/themes/canvas/img/site.webmanifest">
+	<link rel="mask-icon" href="/wp-content/themes/canvas/img/safari-pinned-tab.svg" color="#5bbad5">
+	<link rel="shortcut icon" href="/wp-content/themes/canvas/img/favicon.ico">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-config" content="/wp-content/themes/canvas/img/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">
 
 	<!-- Font Scripts -->
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
@@ -26,6 +28,57 @@
 	<!-- Additional Scripts -->
 	<script type='text/javascript' src='/wp-content/themes/canvas/js/plugins/parallax-scroll-min.js'></script>
 
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-12321735-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-12321735-1');
+	</script>
+
+	<script data-account="lAHGKsg9fb" src="https://cdn.userway.org/widget.js"></script>
+
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Dentist",
+	  "name": "Align Orthdontics",
+	  "image": "https://smilesbydrm.com/",
+	  "@id": "",
+	  "url": "https://smilesbydrm.com/",
+	  "telephone": "(616) 531-1811",
+	  "address": {
+	    "@type": "PostalAddress",
+	    "streetAddress": "1673 Gezon Parkway SW",
+	    "addressLocality": "Wyoming",
+	    "addressRegion": "MI",
+	    "postalCode": "49519",
+	    "addressCountry": "US"
+	  },
+	  "geo": {
+	    "@type": "GeoCoordinates",
+	    "latitude": 42.861285,
+	    "longitude": -85.705376
+	  } 
+	}
+	</script>
+
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org/",
+	  "@type": "Person",
+	  "name": "Dr. Larry Majznerski",
+	  "url": "https://smilesbydrm.com",
+	  "image": "https://smilesbydrm.com",
+	  "sameAs": "https://www.facebook.com/majznerski/",
+	  "jobTitle": "Orthodontist",
+	  "worksFor": {
+	    "@type": "Organization",
+	    "name": "Align Orthodontics"
+	  }  
+	}
+	</script>
 <?php wp_head(); ?>
 </head>
 

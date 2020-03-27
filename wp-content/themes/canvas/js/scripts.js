@@ -13,6 +13,7 @@ jQuery(function() {
 		jQuery(this).toggleClass('active');
 		jQuery('header').toggleClass('mobile');
 		jQuery('#side-menu').toggleClass('active');
+		jQuery('body').toggleClass('active');
 	});
 
 	// Video player

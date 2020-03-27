@@ -1,28 +1,78 @@
 body.error404 {
-	background: $base;
+	background: black;
 
-	.not-found {
-		padding-top: 12em;
-		padding-bottom: 12em;
+	video {
+		opacity: .25;
+	}
 
-		h2 {
+	section.not-found {
+		padding-top: 17em;
+		padding-bottom: 0;
+		background: transparent;
+
+		.smile-icon {
+			position: relative;
+			z-index: 2;
+			background: white;
+			height: 150px;
+			width: 150px;
+			margin: 0 auto 20px;
+			line-height: 100px;
+			display: block;
+			padding: 45px 0 0;
+			border-radius: 150px;
+		}
+
+		h1 {
 			color: white;
 			margin-bottom: .8em;
+			position: relative;
+			z-index: 2;
+			margin: 0 0 25px;
+			font-size: 70px;
+			line-height: 1.1em;
+			max-width: 800px;
+
+			@media only screen and (max-width: $desktop) {
+				font-size: 55px;
+			}
+
+			@media only screen and (max-width: $mediumdevice) {
+				font-size: 32px;
+			}
+
+			&:after {
+				left: 50%;
+				margin: 0 0 0 -12.5px;
+			}
 		}
 
 		p {
 			color: white;
+			position: relative;
+			z-index: 2;
+			font-size: 22px;
+			margin: 0 0 25px;
 		}
 
 		a {
-			@include btn-hollow (
-				$btn-color: white
-			);
+			position: relative;
+			z-index: 2;
+			margin: 0 10px;
+		}
+
+		.btn {
+			margin-bottom: 20px;
+			margin-left: 0;
 		}
 
 		@media only screen and (max-width: $mediumdevice) {
 			padding-top: 10em;
 			padding-bottom: 5em;
 		}
+	}
+
+	footer {
+		display: none;
 	}
 }

@@ -9,7 +9,7 @@ get_header(); ?>
 	<section class="banner">
 		<div class="banner-message">
 			<h1>Your Family Orthodontist Since 1989</h1>
-			<p>A New Name, The Same Private Practice</p>
+			<p>Invisalign & Braces for Teens, Adults & Kids</p>
 			<a href="/free-consult" class="btn">Schedule Your Free Consultation</a>
 		</div>
 		<div class="bgvideo">
@@ -24,13 +24,13 @@ get_header(); ?>
 		<div class="container">
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-8">
-					<h4 class="fade-element">Making Grand Rapids Smile for 30 Years</h4>
-					<h2 class="fade-element">As your family’s orthodontist since 1989, we’ve created thousands of unforgettable smiles in Grand Rapids. With one office for kids and teens and another one devoted to adults, there’s no reason to go anywhere else.</h2>
+					<h2 class="fade-element">Align Orthodontics—New Name, Same Private Practice</h2>
+					<p class="fade-element">Dr. Larry Majznerski at Align Orthodontics is the top Invisalign expert in West Michigan and also helps with snoring problems. Giving you one office for children and teens and one devoted to adults, there’s no reason to look anywhere else. </p>
 					<a href="/our-offices/" class="btn fade-element">Why Choose Us</a>
 				</div>
-				<div class="col-xs-12 col-sm-3 col-sm-offset-1">
+				<!-- <div class="col-xs-12 col-sm-3 col-sm-offset-1">
 					<img src="/wp-content/uploads/2020/02/inv-2020.jpg" alt="invigalign 20 years provider logo" class="provider-logo fade-element">
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</section>
@@ -38,34 +38,24 @@ get_header(); ?>
 		<div class="row middle-xs">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
 				<div class="content-wrapper fade-element">
-					<h2>Dr. Larry Majznerski, DDS MSD</h2>
-					<img src="/wp-content/uploads/2020/03/bg-dr-majznerski-headshot-transparent.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-show">
-					<div class="arrow-up"></div>
-					<div class="row highlights">
-						<div class="col-xs-12 col-sm-6">
-							<ul>
-								<li><strong>Bay City, MI -</strong><br/>Hometown</li>
-								<li><strong>University of Michigan -</strong><br/>Undergrad & Dental School</li>
-							</ul>
+					<h2>Meet Dr. Larry Majznerski</h2>
+					<img src="/wp-content/uploads/2020/03/dr-larry-majznerski-headshot-lrg-white-coat.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-show">
+					<div class="dr-content">
+						<p>"For 35 years, I’ve designed thousands of natural smiles that made his patients’ faces look amazing.</p>
+						<p>We’re here for you. Our passion is to put the WOW in your smile."</p>
+						<div class="arrow-up"></div>
+						<a href="#" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
+						<div class="btn yellow sml play-btn" data-video-id="mieTke9N9xs" style="margin: 0 15px 25px; display: inline-block;">
+							<i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majznerski
 						</div>
-						<div class="col-xs-12 col-sm-6">
-							<ul>
-								<li><strong>Sinai Hospital of Detroit -</strong><br/>Hospital Residency</li>
-								<li><strong>Mayo Clinic -<br/></strong>Orthodontic Residency</li>
-							</ul>
+						<div class="dr-logos">
+							<img src="/wp-content/uploads/2020/03/dr-larry-signature-all-white.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
 						</div>
-					</div>
-					<a href="#" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
-					<div class="btn yellow sml play-btn" data-video-id="mieTke9N9xs" style="margin: 0 15px 25px; display: inline-block;">
-						<i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majznerski
-					</div>
-					<div class="dr-logos">
-						<img src="/wp-content/uploads/2020/03/dr-larry-signature-all-white.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
 					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 col-sm-6 col-md-5">
-				<img src="/wp-content/uploads/2020/03/bg-dr-majznerski-headshot-transparent.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-hide">
+				<img src="/wp-content/uploads/2020/03/dr-larry-majznerski-headshot-lrg-white-coat.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-hide">
 			</div>
 			<div class="logos-wrapper">
 				<div class="dr-logos">
@@ -81,24 +71,31 @@ get_header(); ?>
 		</div>
 	</section>
 	<section class="our-office ltgrey-section">
-		<div class="container">
+		<div class="container-lrg">
 			<div class="row middle-xs">
-				<div class="col-xs-12 col-sm-6 col-md-6 col-one">
+				<div class="col-xs-12 col-sm-4">
 					<div class="content-wrapper fade-element">
 						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages-adults.png" alt="patient smiling during visit" class="fade-element">
-						<h3>One Office for Adults</h3>
+						<!-- <h3>One Office for Adults</h3>
 						<div class="arrow-up"></div>
 						<p>We treat as many adults as we do children and teens, so we decided to give you the best possible experience while transforming your smile.</p>
+						<a href="/our-offices" class="underline-btn">See Our Offices</a> -->
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4">
+					<div class="content-wrapper">
+						<h3>A Separate Office for Adults</h3>
+						<p>You should be comfortable, and that’s why we’re the first orthodontist in West Michigan to build an office just for adults.</p>
 						<a href="/our-offices" class="underline-btn">See Our Offices</a>
 					</div>
 				</div>
-				<div class="col-xs-12 col-sm-6 col-md-6">
+				<div class="col-xs-12 col-sm-4">
 					<div class="content-wrapper fade-element">
 						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages.png" alt="patient smiling during visit" class="fade-element">
-						<h3>One Office for Children &amp; Teens</h3>
+						<!-- <h3>One Office for Children &amp; Teens</h3>
 						<div class="arrow-up"></div>
 						<p>Children and teens enjoy getting their new smiles in an environment designed specifically for them.</p>
-						<a href="/our-offices" class="underline-btn">See Our Offices</a>
+						<a href="/our-offices" class="underline-btn">See Our Offices</a> -->
 					</div>
 				</div>
 			</div>
@@ -109,9 +106,7 @@ get_header(); ?>
 			<div class="row">
 				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-6 col-md-offset-3">
 					<h2 class="fade-element">See Grand Rapids’ Most Experienced Invisalign Provider</h2>
-					<p class="fade-element">Dr. Majznerski helped pioneer Invisalign treatment.</p>
-					<p class="fade-element">As Grand Rapids’ first Invisalign Elite Preferred provider, he’s created more smiles for teens and adults using Invisalign than 99% of anyone else.</p>
-					<p class="fade-element">There’s no reason to see anyone else for your smile.</p>
+					<p class="fade-element">Dr. Majznerski is Grand Rapid’s first Invisalign provider, and has been using it to shape smiles for more than 20 years. There’s no reason to see anyone else for your Invisalign.</p>
 					<img src="/wp-content/uploads/2020/02/inv1-MB.png" alt="invisalign awards" class="invisalign-awards fade-element">
 					<a href="/invisalign" class="btn fade-element">Learn More About Invisalign</a>
 				</div>
@@ -187,7 +182,7 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section class="home-before-and-afters ltgrey-section">
+	<section class="home-before-and-afters">
 		<div class="container-lrg">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
@@ -209,7 +204,7 @@ get_header(); ?>
 			<a href="/before-afters/" class="btn fade-element">See More Before &amp; Afters</a>
 		</div>
 	</section>
-	<section class="home-testimonials">
+	<section class="home-testimonials ltgrey-section">
 		<div class="container">
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-one">
