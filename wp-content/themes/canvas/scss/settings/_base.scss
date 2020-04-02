@@ -254,3 +254,10 @@ body.active {
 		display: none !important;
 	}
 }
+
+.fl-mosaicflow-col {
+
+	@media only screen and (max-width: 600px) {
+   		width: 100% !important;
+	}
+}

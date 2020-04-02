@@ -9,7 +9,7 @@ get_header(); ?>
 	<section class="banner">
 		<div class="banner-message">
 			<h1>Your Family Orthodontist Since 1989</h1>
-			<p>Invisalign & Braces for Teens, Adults & Kids</p>
+			<p>Now With One Office for Adults, and One Office for Children & Teens</p>
 			<a href="/free-consult" class="btn">Schedule Your Free Consultation</a>
 		</div>
 		<div class="bgvideo">
@@ -24,13 +24,10 @@ get_header(); ?>
 		<div class="container">
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-8">
-					<h2 class="fade-element">Align Orthodontics—New Name, Same Private Practice</h2>
+					<h2 class="fade-element">Align Orthodontics—the Private Practice of Dr. Larry Majznerski</h2>
 					<p class="fade-element">Dr. Larry Majznerski at Align Orthodontics is the top Invisalign expert in West Michigan and also helps with snoring problems. Giving you one office for children and teens and one devoted to adults, there’s no reason to look anywhere else. </p>
 					<a href="/our-offices/" class="btn fade-element">Why Choose Us</a>
 				</div>
-				<!-- <div class="col-xs-12 col-sm-3 col-sm-offset-1">
-					<img src="/wp-content/uploads/2020/02/inv-2020.jpg" alt="invigalign 20 years provider logo" class="provider-logo fade-element">
-				</div> -->
 			</div>
 		</div>
 	</section>
@@ -38,18 +35,18 @@ get_header(); ?>
 		<div class="row middle-xs">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
 				<div class="content-wrapper fade-element">
-					<h2>Meet Dr. Larry Majznerski</h2>
+					<h2>Meet Larry Majznerski</h2>
 					<img src="/wp-content/uploads/2020/03/dr-larry-majznerski-headshot-lrg-white-coat.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-show">
 					<div class="dr-content">
-						<p>"For 35 years, I’ve designed thousands of natural smiles that made his patients’ faces look amazing.</p>
+						<p>"For the last 25 years I’ve designed thousands of natural smiles that made my patients’ faces look amazing.</p>
 						<p>We’re here for you. Our passion is to put the WOW in your smile."</p>
+						<div class="dr-logos">
+							<img src="/wp-content/uploads/2020/03/dr-larry-signature-all-white.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
+						</div>
 						<div class="arrow-up"></div>
 						<a href="#" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
 						<div class="btn yellow sml play-btn" data-video-id="mieTke9N9xs" style="margin: 0 15px 25px; display: inline-block;">
 							<i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majznerski
-						</div>
-						<div class="dr-logos">
-							<img src="/wp-content/uploads/2020/03/dr-larry-signature-all-white.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
 						</div>
 					</div>
 				</div>
@@ -75,27 +72,19 @@ get_header(); ?>
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-4">
 					<div class="content-wrapper fade-element">
-						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages-adults.png" alt="patient smiling during visit" class="fade-element">
-						<!-- <h3>One Office for Adults</h3>
-						<div class="arrow-up"></div>
-						<p>We treat as many adults as we do children and teens, so we decided to give you the best possible experience while transforming your smile.</p>
-						<a href="/our-offices" class="underline-btn">See Our Offices</a> -->
+						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages-adults-v2.png" alt="patient smiling during visit" class="fade-element">
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4">
 					<div class="content-wrapper">
-						<h3>A Separate Office for Adults</h3>
-						<p>You should be comfortable, and that’s why we’re the first orthodontist in West Michigan to build an office just for adults.</p>
+						<h3>One Office for Adults, One for Children and Teens</h3>
+						<p>Your comfort is important, that’s why we’re the first in Western Michigan to give you separate offices. Adults have a special office just for them, while kids and teens get their own office, too.</p>
 						<a href="/our-offices" class="underline-btn">See Our Offices</a>
 					</div>
 				</div>
 				<div class="col-xs-12 col-sm-4">
 					<div class="content-wrapper fade-element">
-						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages.png" alt="patient smiling during visit" class="fade-element">
-						<!-- <h3>One Office for Children &amp; Teens</h3>
-						<div class="arrow-up"></div>
-						<p>Children and teens enjoy getting their new smiles in an environment designed specifically for them.</p>
-						<a href="/our-offices" class="underline-btn">See Our Offices</a> -->
+						<img src="/wp-content/themes/canvas/img/ortho-for-all-ages-children-v2.png" alt="patient smiling during visit" class="fade-element">
 					</div>
 				</div>
 			</div>
@@ -192,12 +181,15 @@ get_header(); ?>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-sm-4">
+					<h4 class="fade-element">Invisalign Treatment</h4>
 					<img src="/wp-content/uploads/2020/02/14-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 				<div class="col-xs-12 col-sm-4">
+					<h4 class="fade-element">Comfortable Braces</h4>
 					<img src="/wp-content/uploads/2020/02/8-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 				<div class="col-xs-12 col-sm-4">
+					<h4 class="fade-element">A More Youthful Smile</h4>
 					<img src="/wp-content/uploads/2020/02/19-1024x576-1.jpg" alt="before and after image" class="fade-element">
 				</div>
 			</div>
@@ -209,7 +201,7 @@ get_header(); ?>
 			<div class="row middle-xs">
 				<div class="col-xs-12 col-sm-6 col-md-4 col-one">
 					<div class="content-wrapper fade-element">
-						<!-- <img src="/wp-content/themes/canvas/img/pattern-diamonds.png" alt="diamond background pattern" class="pattern no-mobile-parallax" data-parallax='{"y": -90}'> -->
+
 						<h4>Patient Testimonial</h4>
 						<h3>Meet Demarquis</h3>
 						<div class="arrow-up"></div>
