@@ -130,13 +130,27 @@ body.home {
 				display: inline-block;
 				max-width: 100px;
 				vertical-align: middle;
-				margin: 0 20px 10px;
+				margin: 0 20px 15px;
 
-				&.mda-logo {
+				&.lrg {
 
-					@media screen and (max-width: 1000px) {
-						margin-bottom: 25px;
+					@media screen and (max-width: $mediumdevice) {
+						max-width: 48% !important;
+						margin-left: 1% !important;
+						margin-right: 1% !important;
 					}
+				}
+
+				&.invisalign {
+					@media screen and (max-width: $mediumdevice) {
+						max-width: 38% !important;
+						margin-left: 1% !important;
+						margin-right: 1% !important;
+					}
+				}
+
+				&:last-of-type {
+					margin-top: 15px !important;
 				}
 			}
 		}

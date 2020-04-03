@@ -35,16 +35,16 @@ get_header(); ?>
 		<div class="row middle-xs">
 			<div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-2">
 				<div class="content-wrapper fade-element">
-					<h2>Meet Larry Majznerski</h2>
+					<h2>Meet Larry Majznerski, DDS, MSD</h2>
 					<img src="/wp-content/uploads/2020/03/dr-larry-majznerski-headshot-lrg-white-coat.png" alt="dr. majznerski headshot" class="dr-headshot fade-element mobile-show">
 					<div class="dr-content">
-						<p>"For the last 25 years I’ve designed thousands of natural smiles that made my patients’ faces look amazing.</p>
-						<p>We’re here for you. Our passion is to put the WOW in your smile."</p>
+						<p>“For the last 25 years I’ve designed thousands of natural smiles that made my patients’ faces look amazing.</p>
+						<p>We’re here for you. Our passion is to put the WOW in your smile.”</p>
 						<div class="dr-logos">
 							<img src="/wp-content/uploads/2020/03/dr-larry-signature-all-white.png" alt=" dr. larry signature" class="signature award-logo" style="max-width: 225px;">
 						</div>
 						<div class="arrow-up"></div>
-						<a href="#" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
+						<a href="/meet-dr-larry-majznerski/" class="btn sml" style="margin: 0 15px 25px; display: inline-block;">Learn More</a>
 						<div class="btn yellow sml play-btn" data-video-id="mieTke9N9xs" style="margin: 0 15px 25px; display: inline-block;">
 							<i class="fa fa-play-circle-o" aria-hidden="true"></i> About Dr. Majznerski
 						</div>
@@ -56,9 +56,9 @@ get_header(); ?>
 			</div>
 			<div class="logos-wrapper">
 				<div class="dr-logos">
-					<img src="/wp-content/uploads/2020/02/Mayo-Clinic-Alumnus-White-Logo.png" alt="mayo clinic logo" class="award-logo" style="max-width: 80px;">
-					<img src="/wp-content/uploads/2020/02/DMC-100KB-full.jpg" alt="dmc logo" class="award-logo" style="max-width: 110px;">
-					<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="award-logo" style="max-width: 80px;">
+					<img src="/wp-content/uploads/2020/02/Mayo-Clinic-Alumnus-White-Logo.png" alt="mayo clinic logo" class="award-logo lrg" style="max-width: 80px;">
+					<!-- <img src="/wp-content/uploads/2020/02/DMC-100KB-full.jpg" alt="dmc logo" class="award-logo" style="max-width: 110px;"> -->
+					<img src="/wp-content/uploads/2020/02/INV-white.png" alt="invisalign award logo" class="award-logo lrg invisalign" style="max-width: 80px;">
 					<img src="/wp-content/uploads/2020/03/AAO-logo-reversed.png" alt="aao logo" class="award-logo">
 					<img src="/wp-content/uploads/2020/03/MDA-m-reversed.png" alt="mda logo" class="award-logo mda-logo" style="max-width: 150px;">
 					<img src="/wp-content/uploads/2020/02/Michigan-Dent-transp-hi-res-reversed.png" alt="university of michigan logo" class="award-logo" style="
