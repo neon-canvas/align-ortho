@@ -15,9 +15,9 @@ body.page-template-no-header {
 			-webkit-flex-direction: row;
 			-ms-flex-direction: row;
 			flex-direction: row;
-			-webkit-flex-wrap: wrap;
-			-ms-flex-wrap: wrap;
-			flex-wrap: wrap;
+			-webkit-flex-wrap: nowrap;
+			-ms-flex-wrap: nowrap;
+			flex-wrap: nowrap;
 			-webkit-justify-content: flex-start;
 			-ms-flex-pack: start;
 			justify-content: flex-start;
@@ -33,7 +33,7 @@ body.page-template-no-header {
 				-ms-flex: 0 1 650px;
 				flex: 0 1 650px;
 				background: #f0fcff;
-				padding: 50px 100px;
+				padding: 50px 70px;
 				text-align: center;
 				min-height: calc(100vh - 85px);
 
